@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>列表模块</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="生活帮手">
+<link href="../../css/module/combine.css" rel="stylesheet">
+<link href="../../css/module/list.css" rel="stylesheet">
+<style type="text/css">
+*{padding: 0;margin: 0;}
+.container{overflow: hidden;padding: 20px;}
+.inner{ width:50%; float:left; }
+.pcon { border:1px solid #ccc; padding:10px; margin:0 0 10px 10px;}
+.para { height:30px; padding: 0;margin: 0;line-height:30px; font-weight:bold; background:#000; color:#fff; padding-left:20px;font-size: 16px;}
+.pcon .tit { width:100px; text-align:left; border:none;padding-right: 15px; }
+.pcon > div{padding: 5px 0;}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<h3 class="para">图文列表</h3>
+	<ul class="inline graphic-list">
+		<li>
+			<div class="graphic">
+				<div class="mod-media">
+					<div class="pic">
+						<a href=""><img src="../../img/_temp/pic.jpg" alt=""></a>
+					</div>
+					<p class="tit text-ca txt-cut"><a href="">说明文字说明文字说明文字</a></p>
+					<p class="intro text-cb">详细说明说明说明说明说明说明说明说明说明</p>
+				</div>
+				<div class="item-list">
+					<div class="item-main">主要文字说明XX</div>
+		            <div class="item-minor">次级文字说明</div>
+		            <div class="item-other">其它文字说明</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="graphic">
+				<div class="mod-media">
+					<div class="pic">
+						<a href=""><img src="../../img/_temp/pic.jpg" alt=""></a>
+					</div>
+					<p class="tit text-ca txt-cut"><a href="">说明文字说明文字说明文字</a></p>
+					<p class="intro text-cb">详细说明说明说明说明说明</p>
+				</div>
+				<div class="item-list">
+					<div class="item-main">主要文字说明XX</div>
+		            <div class="item-minor">次级文字说明</div>
+		            <div class="item-other">其它文字说明</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="graphic">
+				<div class="mod-media">
+					<div class="pic">
+						<a href=""><img src="../../img/_temp/pic.jpg" alt=""></a>
+					</div>
+					<p class="tit text-ca txt-cut"><a href="">说明文字说明文字说明文字</a></p>
+					<p class="intro text-cb">详细说明说明说明说明说明</p>
+				</div>
+				<div class="item-list">
+					<div class="item-main">主要文字说明XX</div>
+		            <div class="item-minor">次级文字说明</div>
+		            <div class="item-other">其它文字说明</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="graphic">
+				<div class="mod-media">
+					<div class="pic">
+						<a href=""><img src="../../img/_temp/pic.jpg" alt=""></a>
+					</div>
+					<p class="tit text-ca txt-cut"><a href="">说明文字说明文字说明文字</a></p>
+					<p class="intro text-cb">详细说明说明说明说明说明</p>
+				</div>
+				<div class="item-list">
+					<div class="item-main">主要文字说明XX</div>
+		            <div class="item-minor">次级文字说明</div>
+		            <div class="item-other">其它文字说明</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<h3 class="para">图文列表——上下结构</h3>
+	<ul class="inline graphic-list">
+	</ul>
+
+	<h3 class="para">图文列表——上下结构</h3>
+	<ul class="inline graphic-list">
+	</ul>
+
+ 
+</div>
+</body>
+</html>

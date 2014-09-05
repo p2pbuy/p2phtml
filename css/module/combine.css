@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*-----------公用集合--------------------*/
+/*bootstrap样式*/
+@import "../module/base.css";
+/*基础公共*/
+@import "../module/common.css";

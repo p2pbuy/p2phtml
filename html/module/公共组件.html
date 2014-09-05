@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>公共基础组件</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="生活帮手">
+<link href="../../css/module/combine.css" rel="stylesheet">
+<style type="text/css">
+*{padding: 0;margin: 0;}
+.container{overflow: hidden;}
+.inner{ width:50%; float:left; }
+.pcon { border:1px solid #ccc; padding:10px; margin:0 0 10px 10px;}
+.para { height:30px; padding: 0;margin: 0;line-height:30px; font-weight:bold; background:#000; color:#fff; padding-left:20px;font-size: 16px;}
+.pcon .tit { width:100px; text-align:left; border:none;padding-right: 15px; }
+.pcon > div{padding: 5px 0;}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="inner">
+		<div class="pcon">
+			<h3 class="para">文字类</h3>
+			<div>
+				<span class="tit">一级文字色：</span><span class="text-ca">你好，我是一级文字色</span>
+			</div>
+			<div>
+				<span class="tit">二级文字色：</span><span class="text-cb">你好，我是二级文字色</span>
+			</div>
+			<div>
+				<span class="tit">三级文字色：</span><span class="text-cc">你好，我是二级文字色</span>
+			</div>
+			<div>
+				<span class="tit">特别文字色1：</span><span class="text-cd">你好，我是二级文字色</span>
+			</div>
+			<div>
+				<span class="tit">特别文字色2：</span><span class="text-ce">你好，我是二级文字色</span>
+			</div>
+		</div>
+		<div class="pcon">
+			<h3 class="para">提示ico</h3>
+			<div><span class="tit">正确</span><i class="icon-succ"></i><i class="icon-succS"></i><i class="icon-succM"></i><i class="icon-succB"></i></div>
+			<div><span class="tit">提示</span><i class="icon-warn"></i><i class="icon-warnS"></i><i class="icon-warnM"></i><i class="icon-warnB"></i></div>
+			<div><span class="tit">警告</span><i class="icon-error"></i><i class="icon-errorS"></i><i class="icon-errorM"></i><i class="icon-errorB"></i></div>
+			<div><span class="tit">错误</span><i class="icon-del"></i><i class="icon-delS"></i><i class="icon-delM"></i><i class="icon-delB"></i></div>
+			<div><span class="tit">疑问</span><i class="icon-ask"></i><i class="icon-askS"></i><i class="icon-askM"></i><i class="icon-askB"></i></div>
+		</div>
+		<div class="pcon">
+			<h3 class="para">按钮类</h3>
+			<div><span class="text-cb">添加.btn-large、.btn-small 或 .btn-mini即可改变按钮大小。</span></div>
+			<div><span class="tit">主按钮</span><span class="btn btn-primary">确定</span><span class="btn btn-primary disabled">禁用状态</span></div>
+			<div><span class="tit">次按钮</span><span class="btn">取消</span><span class="btn disabled">禁用状态</span></div>
+			<div><span class="tit">红色按钮</span><span class="btn btn-danger">操作</span><span class="btn btn-danger disabled">禁用状态</span></div>
+			<div><span class="tit">链接按钮</span><span class="btn btn-link">链接</span></div>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="pcon">
+			<h3 class="para">提示条</h3>
+			<div>
+				<span class="tit">黄色提示条</span>
+				<div class="alert">
+					<button type="button" class="close" data-dismiss="alert">×</button>
+					<span>提示提示提示提示提示提示提示.</span>
+		        </div>
+		        <div class="alert alert-block">
+		            <button type="button" class="close" data-dismiss="alert">×</button>
+		            <h4 class="alert-heading">标题</h4>
+		            <p class="content">提示内容提示文案提示内容提示文案提示内容提示文案</p>
+		            <div class="btn-box">
+		            	<a class="btn btn-danger" href="#">操作</a>
+		            	<a href="" class="btn">取消</a>
+		            </div>
+		        </div>
+		        <span class="tit">红色提示条</span>
+		        <div class="alert alert-error">
+		            <button type="button" class="close" data-dismiss="alert">×</button>
+		            <span>提示提示提示提示提示</span>
+		        </div>
+		        <div class="alert alert-block alert-error">
+		            <button type="button" class="close" data-dismiss="alert">×</button>
+		            <h4 class="alert-heading">标题</h4>
+		            <p class="content">提示内容提示文案提示内容提示文案提示内容提示文案</p>
+		            <div class="btn-box">
+		            	<a class="btn btn-danger" href="#">操作</a>
+		            	<a href="" class="btn">取消</a>
+		            </div>
+		        </div>
+			</div>
+		</div>
+		<div class="pcon">
+			<h3 class="para">提示框</h3>
+			<div style="position:relative;height: 180px">
+				<span class="tit">向上</span>
+				<div class="popover top" style="display:block;left:50px;margin:0;">
+		            <div class="arrow"></div>
+		            <h4 class="popover-title">标题</h4>
+		            <div class="popover-content">
+		              <p>文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案.</p>
+		            </div>
+		        </div>
+			</div>
+			<div style="position:relative;height: 180px">
+				<span class="tit">向下</span>
+				<div class="popover bottom" style="display:block;left:50px;margin:0;">
+		            <div class="arrow"></div>
+		            <h4 class="popover-title">标题</h4>
+		            <div class="popover-content">
+		              <p>文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案.</p>
+		            </div>
+		        </div>
+			</div>
+			<div style="position:relative;height: 180px">
+				<span class="tit">向左</span>
+				<div class="popover left" style="display:block;left:50px;margin:0;">
+		            <div class="arrow"></div>
+		            <h4 class="popover-title">标题</h4>
+		            <div class="popover-content">
+		              <p>文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案.</p>
+		            </div>
+		        </div>
+			</div>
+			<div style="position:relative;height: 180px">
+				<span class="tit">向右</span>
+				<div class="popover right" style="display:block;left:50px;margin:0;">
+		            <div class="arrow"></div>
+		            <h4 class="popover-title">标题</h4>
+		            <div class="popover-content">
+		              <p>文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案.</p>
+		            </div>
+		        </div>
+			</div>
+		</div>
+	</div>
+</div>
+    
+</body>
+</html>
