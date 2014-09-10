@@ -1,0 +1,68 @@
+@charset"utf-8";
+/* 订单信息 */
+.order-info { border-top: 1px solid #eee; }
+.order-info .title { font-size: 14px; }
+.order-info ul.inline { width: 1016px; }
+.order-info .delivery-address { padding: 0 0 10px; border-bottom: 1px dashed #eee; }
+/* 收货人信息 */
+.buyer-info { position: relative; width: 224px; margin: 0 16px 0 0; padding: 5px; border: 2px solid #ddd; border-radius: 2px; font-size: 12px; }
+.buyer-info:hover { border-color: #eb7352; }
+.buyer-info .name { line-height: 24px; border-bottom: 1px solid #ddd; }
+.buyer-info .name .n1,
+.buyer-info .name .n2 { padding-right: 10px; }
+.buyer-info .other { padding: 5px 0; line-height: 18px; }
+.buyer-info .phone { padding-left: 5px; }
+.buyer-info .markup { display: none; position: absolute; width: 30px; height: 30px; background: url(../../img/common/icon.png) 0 0 no-repeat; right: -2px; bottom: -2px; }
+.buyer-info.choosed { border-color: #eb7352; }
+.buyer-info.choosed .markup { display: block; background-position: -50px 0; }
+/* 添加新地址 */
+.add-address .tit { color: #F39C12; }
+.add-address .form-horizontal { margin-top: 10px; }
+.add-address .form-horizontal .control-group { margin-bottom: 10px; }
+.add-address .form-horizontal .control-label { width: 72px; text-align: left; }
+.add-address .form-horizontal .controls { margin-left: 80px; }
+.add-address .receipt-address select { min-width: 72px; width: auto; margin-right: 10px; }
+/* 电商logo */
+.shop-amazon { display: inline-block; width: 93px; height: 24px; background: url(../../img/common/shop_amazon.png) 0 0 no-repeat; background-size: 93px 24px; vertical-align: middle; }
+.thead .th-name { width: 500px; }
+.thead .th-price,
+.thead .th-amount,
+.thead .th-offer,
+.thead .th-total { width: 116px; text-align: center; }
+/* 价格信息 */
+.goods-price .item-sub ,
+.goods-cost .item-sub { border-top: 1px solid #dedbd5; padding: 8px 0; }
+.goods-table ,
+.cost-table{ padding: 10px; background: #fef5e6; border-top: 2px solid #f7a920; overflow: hidden; }
+.goods-table .td-pic { width: 90px; }
+.goods-table .td-intro { width: 340px; padding: 0 15px; }
+.goods-table .td-intro .size span { color: #F39C12; font-weight: bold; }
+.goods-table .td-intro .name { color: #333; font-family: 'ArialMT', 'Arial'; }
+.goods-table .td-price,
+.goods-table .td-amount,
+.goods-table .td-offer,
+.goods-table .td-total { width: 120px; text-align: center; }
+.goods-table .td-total { font-weight: bold; }
+.goods-total ,
+.cost-total { border-top: 2px solid #f59d00; padding: 10px; background: #fce1b6; }
+.goods-total .tit,
+.cost-total .tit { display: inline-block; width: 90px; padding: 0 5px 0 22px; }
+.goods-total .cont,
+.cost-total .cont { padding: 0 15px; }
+.goods-total .total-price ,
+.cost-total .total-price { padding-left: 20px;font-size: 20px; font-weight: bold; }
+/* 运费及税率信息 */
+.goods-cost .th-name{width: 220px;padding-left: 15px;}
+.goods-cost .td-name{width: 200px;}
+.goods-cost .th-weight,
+.goods-cost .th-type,
+.goods-cost .th-price,
+.goods-cost .th-offer,
+.goods-cost .th-total{width: 145px;text-align: center;}
+.goods-cost .td-weight,
+.goods-cost .td-type,
+.goods-cost .td-price,
+.goods-cost .td-offer,
+.goods-cost .td-total{width: 150px;text-align: center;}
+/*结算*/
+.goods-settlement{padding: 30px 0 0;text-align: right;}

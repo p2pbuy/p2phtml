@@ -1,8 +1,20 @@
 @charset"utf-8";
-body { background: #f8f8f8; }
+body { background: #fff; }
 .container { margin: 0 auto; max-width: 1000px; -width: 1000px; }
 .container > hr { margin: 50px 0; }
 .divider { margin: 0; padding: 0 5px; color: #333; }
+/*字重*/
+.W-fb{font-weight: bold;}
+/*布局*/
+.W-fl{float: left;_display: inline;}
+.w-fr{float: right;_display:inline;}
+/*字色*/
+.S-txt1{color: #333;}
+.S-txt2{color: #808080;}
+.S-txt3{color: #ccc;}
+.S-txt4{color: #F39C12;}
+.S-txt5{color: #CE0D13;}
+
 /*logo*/
 .logo { width: 252px; height: 60px; margin: 35px auto 0; background: url(../../img/common/logo.png) left center no-repeat; background-size: 60px 60px; text-indent: 80px; line-height: 60px; color: #fff; }
 .logo a { display: block; text-decoration: none; color: #fff; }
@@ -52,7 +64,7 @@ body { background: #f8f8f8; }
 .main-content { width: 1000px; margin: 0 auto; padding-bottom: 60px; min-height: 500px; border-bottom: 1px solid #d9d9d9; }
 /* 进度 */
 .step-trilogy {padding: 15px 0 ;border-top:1px solid #ccc;}
-.step-trilogy .step{display: inline-block;height: 30px;line-height: 30px;margin:0 10px 0 0;padding: 0 20px;background: #f2f2f2;color: #333;text-decoration: none;}
+.step-trilogy .step{display: inline-block;height: 30px;line-height: 30px;margin:0 10px 0 0;padding: 0 20px;background: #f2f2f2;color: #333;text-decoration: none;font-weight: bold;}
 .step-trilogy .cur{background: #ccc;font-weight: bold;}
 /* 展示区 */
 .box-show { margin-top: 20px; }
