@@ -9,12 +9,17 @@ body { background: #fff; }
 .W-fl{float: left;_display: inline;}
 .w-fr{float: right;_display:inline;}
 /*字色*/
-.S-txt1{color: #333;}
-.S-txt2{color: #808080;}
-.S-txt3{color: #ccc;}
-.S-txt4{color: #F39C12;}
-.S-txt5{color: #CE0D13;}
-
+.S-txt1{color: #333;}/*黑色*/
+.S-txt2{color: #808080;}/*深灰*/
+.S-txt3{color: #ccc;}/*浅灰*/
+.S-txt4{color: #F39C12;}/*橙色*/
+.S-txt5{color: #CE0D13;}/*红色*/
+.S-txt6{color: #008000;}/*绿色*/
+/*字号*/
+.W-f14{font-size: 14px;}
+.W-f16{font-size: 16px;}
+.W-f18{font-size: 18px;}
+.W-f20{font-size: 20px;}
 /*logo*/
 .logo { width: 252px; height: 60px; margin: 35px auto 0; background: url(../../img/common/logo.png) left center no-repeat; background-size: 60px 60px; text-indent: 80px; line-height: 60px; color: #fff; }
 .logo a { display: block; text-decoration: none; color: #fff; }

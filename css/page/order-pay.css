@@ -1,0 +1,76 @@
+@charset"utf-8";
+.order-info{padding-top: 30px;border-top: 1px solid #eee;}
+/* 订单信息 */
+.order-info .title { font-size: 14px;}
+.order-info ul.inline { width: 1016px; }
+.order-info .delivery-address { padding: 0 0 10px; border-bottom: 1px dashed #eee; }
+/* 支付方式 */
+.pay-type .pay-amount span{vertical-align: middle; }
+.pay-type .pay-amount .tit{padding-right: 20px;}
+.pay-type .btn-box{margin: 30px 0 0;}
+.pay-type .btn-box .btn{margin-right: 20px;}
+
+/* 电商logo */
+.shop-amazon { display: inline-block; width: 93px; height: 24px; background: url(../../img/common/shop_amazon.png) 0 0 no-repeat; background-size: 93px 24px; vertical-align: middle; }
+.thead .th-name { width: 500px; }
+.thead .th-price,
+.thead .th-amount,
+.thead .th-offer,
+.thead .th-total { width: 116px; text-align: center; }
+/* 价格信息 */
+.goods-price{margin: 20px 0 0;border-top: 1px dashed #ddd;}
+.goods-price .item-sub ,
+.goods-cost .item-sub { border-top: 1px solid #dedbd5; padding: 8px 0; }
+.goods-table ,
+.cost-table{ padding: 10px; background: #fef5e6; border-top: 2px solid #f7a920; overflow: hidden; }
+.goods-table .td-pic { width: 90px; }
+.goods-table .td-intro { width: 340px; padding: 0 15px; }
+.goods-table .td-intro .size span { color: #F39C12; font-weight: bold; }
+.goods-table .td-intro .name { color: #333; font-family: 'ArialMT', 'Arial'; }
+.goods-table .td-price,
+.goods-table .td-amount,
+.goods-table .td-offer,
+.goods-table .td-total { width: 120px; text-align: center; }
+.goods-table .td-total { font-weight: bold; }
+.goods-total ,
+.cost-total { border-top: 2px solid #f59d00; padding: 10px; background: #fce1b6; }
+.goods-total .tit,
+.cost-total .tit { display: inline-block; width: 90px; padding: 0 5px 0 22px; }
+.goods-total .cont,
+.cost-total .cont { padding: 0 15px; }
+.goods-total .total-price ,
+.cost-total .total-price { padding-left: 20px;font-size: 20px; font-weight: bold; }
+/* 运费及税率信息 */
+.goods-cost .th-name{width: 220px;padding-left: 15px;}
+.goods-cost .td-name{width: 200px;}
+.goods-cost .th-weight,
+.goods-cost .th-type,
+.goods-cost .th-price,
+.goods-cost .th-offer,
+.goods-cost .th-total{width: 145px;text-align: center;}
+.goods-cost .td-weight,
+.goods-cost .td-type,
+.goods-cost .td-price,
+.goods-cost .td-offer,
+.goods-cost .td-total{width: 150px;text-align: center;}
+
+/*支付状态*/
+.pay-status {padding-left: 300px;}
+.pay-status .tips{font-size: 18px;font-weight: bold;margin: 0 0 20px;}
+.pay-status p{line-height: 24px;}
+/*物流信息*/
+.goods-logistics{padding: 30px 0 0;}
+.goods-logistics .order-num{padding: 0 0 0 20px;font-weight: bold;font-size: 16px;color: #008000;}
+.logistics-detail .step1,
+.logistics-detail .step2,
+.logistics-detail .step3{position: relative;}
+.logistics-detail .express-info{position: absolute;padding-left: 50px;line-height: 160px;top:1px;right: 0;bottom: 1px;background: #fff;z-index: 9;border-left: 1px solid #eee;}
+.logistics-detail .step1 .express-info{width: 500px;}
+.logistics-detail .step2 .express-info{width: 300px;}
+.logistics-detail .lists{margin: 0;}
+.logistics-detail .li{padding: 6px 0;color: #808080;border-bottom: 1px solid #eee;}
+/*.logistics-detail .step3 .li:first-child{border-top: 1px solid #eee;}*/
+.logistics-detail .li:hover{background: #efefef;}
+.logistics-detail .cur{color: #009900;font-size: 14px;}
+.logistics-detail .cur .S-txt1{color: #009900;}
+.logistics-detail .time em{padding-right: 10px;}
