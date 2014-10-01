@@ -3,7 +3,7 @@
 .url-info .tit,
 .url-info .detail { float: left; width: 12% }
 .url-info .detail { width: 86%; color: #0033CC; }
-/* 图片展示 */
+/* 商品详细信息 */
 .box-gallery { padding: 10px; border: 1px solid #dfdfdf; border-radius: 2px; background: #fff; -webkit-box-shadow: 0 1px 2px 0 rgba(158, 158, 158, 0.2); }
 .box-gallery .title { margin: 0 0 10px; }
 .box-gallery .description { padding: 0 0 10px; line-height: 1em; border-bottom: 1px solid #ddd; }
@@ -17,29 +17,32 @@
 .box-gallery .img-small li a:hover,
 .box-gallery .img-small li.active a { border-color: #de533c; opacity: 1; filter: alpha(opacity=100); }
 .box-gallery .img-small img { width: 40px; height: 40px; }
-.box-gallery .info-box .con-item { padding: 10px 0; border-bottom: 1px solid #ddd; }
-.box-gallery .info-box .numA { color: #f00; font-size: 30px; }
-.box-gallery .info-box .numB { font-size: 20px; }
-.box-gallery .info-box .price { line-height: 50px; }
-.box-gallery .info-box .freight { padding: 0 0 10px; }
-.box-gallery .info-box .tax { padding: 0 0 10px; }
-.box-gallery .info-box .delete { text-decoration: line-through; }
-.box-gallery .info-box .size { display: inline-block; height: 30px; line-height: 30px; margin: 0 10px 10px 0; padding: 0 5px; background: #ccc; color: #fff; text-decoration: none; }
-.box-gallery .info-box .size:hover,
-.box-gallery .info-box .size.choosed { background: #f59d00; }
-.box-gallery .info-box .detail-info { padding: 10px 0 0; }
-.box-gallery .info-box .choose-info .name { margin-bottom: 10px; }
-.box-gallery .info-box .amount-opt { display: inline-block; height: 30px; line-height: 30px; vertical-align: middle; }
-.box-gallery .info-box .amount-increase,
-.box-gallery .info-box .amount-decrease { display: inline-block; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 16px; font-weight: bold; border: 1px solid #ddd; vertical-align: middle; cursor: pointer; }
-.box-gallery .info-box .amount-input { width: 100px; margin: 0; vertical-align: middle; }
-.box-gallery .info-box .btn { width: 150px; height: 36px; padding: 0; line-height: 36px; font-size: 18px; font-weight: bold; letter-spacing: 0.2em; }
+/*商品信息*/
+.info-box .con-item { padding: 10px 0; border-bottom: 1px solid #ddd; }
+.info-box .numA { color: #f00; font-size: 30px; }
+.info-box .numB { font-size: 20px; }
+.info-box .price { line-height: 50px; }
+.info-box .freight { padding: 0 0 10px; }
+.info-box .tax { padding: 0 0 10px; }
+.info-box .delete { text-decoration: line-through; }
+.info-box .size { display: inline-block; height: 30px; line-height: 30px; margin: 0 10px 10px 0; padding: 0 5px; background: #ccc; color: #fff; text-decoration: none; }
+.info-box .size:hover,
+.info-box .size.choosed { background: #f59d00; }
+.info-box .detail-info { padding: 10px 0;line-height: 20px; }
+.info-box .choose-info .name { margin-bottom: 10px; }
+.info-box .amount-opt { display: inline-block; height: 30px; line-height: 30px; vertical-align: middle; }
+.info-box .amount-increase,
+.info-box .amount-decrease { display: inline-block; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 16px; font-weight: bold; border: 1px solid #ddd; vertical-align: middle; cursor: pointer; }
+.info-box .amount-input { width: 100px; margin: 0 5px; vertical-align: middle; }
+.info-box .btn-box{padding-top: 10px;}
+.info-box .btn { width: 150px; height: 36px; padding: 0; line-height: 36px; font-size: 18px; font-weight: bold; letter-spacing: 0.2em; }
+.info-box .other-info{margin: 0;}
+.info-box .other-info .tit,
+.info-box .other-info .cont{float: left;width: 60px;}
+.info-box .other-info .cont{width: 280px;}
+.info-box .other-info .cont textarea{margin: 0;width: 280px;font-size: 12px;}
+.iframe-info .other-info .tit{width: 80px}
 
-.box-gallery .info-box .other-info{margin: 0;}
-.box-gallery .info-box .other-info .tit,
-.box-gallery .info-box .other-info .cont{float: left;width: 60px;}
-.box-gallery .info-box .other-info .cont{width: 280px;}
-.box-gallery .info-box .other-info .cont textarea{margin: 0;width: 280px;font-size: 12px;}
 .tab-bar { height: 40px; line-height: 40px; margin: 20px 0; background-color: #ededed; }
 .tab-bar a { display: inline-block; padding: 0 15px; color: #333; text-decoration: none; font-size: 18px; }
 .tab-bar a.cur { background-color: #de533c; color: #fff; font-weight: bold; }
