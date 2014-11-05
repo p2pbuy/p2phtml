@@ -27,25 +27,34 @@ body { background: #fff; }
 .logo-small a{color: #666;font-weight: bold;}
 /* 头部 */
 .top-bar { height: 35px;background: #333;color: #fff; }
-.top-bar .inner{position: relative;width: 1000px;margin: 0 auto;}
+.top-bar .inner{position: relative;width: 100%;margin: 0 auto;}
 
 /* 搜索大 */
-.search-box { width: 688px; margin: 60px auto 0; }
-.search-box .search-input { width: 580px; height: 30px; line-height: 30px; border: 1px solid #ededed; background: #fff; }
-.search-box .btn { margin-left: 10px; vertical-align: top;line-height: 30px;font-size: 14px; }
-.search-box .nolink{ color: #fff; font-size: 12px; }
+.search-box { width: 688px; margin: 80px auto 0; }
+.search-box .search-wrapper{position: relative;width: 678px;height: 58px;background: #fff;}
+.search-box .search-input { width: 528px; height: 50px; line-height: 30px; border: none; background: #fff; box-shadow: none;font-size: 18px;}
+.search-box .search-input:focus{outline: none;border:none;box-shadow: none;}
+.search-box .submit{position: absolute;width: 58px;height: 58px;line-height: 58px;text-align: center;background: #ff6f00; color: #fff;right: 0;top: 0;text-decoration: none;}
+.search-box .nolink{ position: absolute;width: 58px;height: 58px;right: 78px;color: #333;background: url(../../img/common/icon_camera.png) center center no-repeat;font-size: 0;}
+.search-box .nolink .file{opacity: 0;width: 100%;height: 100%;}
 /* 搜索小 */
-.head-wrap{width: 850px;margin: 0 auto;padding: 24px 0 24px 150px;}
+.head-wrap{width: 650px;margin: 0 auto;padding: 24px 0 24px 150px;}
 .head-wrap dt,
 .head-wrap dd{float: left;vertical-align: top;margin: 0;}
-.head-wrap .search-box .search-input{width: 480px;height: 20px;line-height: 20px;}
-.head-wrap .search-box .btn{height: 20px;line-height: 20px;}
-.head-wrap .search-box .nolink{color: #666;}
+.head-wrap .search-box{width: 488px;}
+.head-wrap .search-box .search-wrapper{position: relative;width: 478px;height: 30px;background: #fff;border: 1px solid #ff6f00;}
+.head-wrap .search-box .search-input { width: 350px; height: 22px; line-height: 18px; border: none; background: #fff; box-shadow: none;font-size: 14px;}
+.head-wrap .search-box .search-input:focus{outline: none;border:none;box-shadow: none;}
+.head-wrap .search-box .submit{position: absolute;width: 58px;height: 30px;line-height: 30px;right: 0;top: 0;}
+.head-wrap .search-box .nolink{ width: 58px;height: 30px;right: 58px;color: #333;font-size: 0;}
+
 /* 登录信息区 */
 .header .login-info { position: absolute; top: 0; right: 0; }
 .header .login-info .unlogin,
 .header .login-info .logined { padding: 5px 15px; margin: 0; }
-.header .login-info li { padding: 0 8px; text-shadow: none; }
+.header .login-info li a{ display: block;padding: 9px; text-shadow: none;border-radius: 2px;text-decoration: none;}
+.header .login-info li a:hover{padding: 8px;border:1px solid #fff;}
+.header .login-info li .cur{background: #767677;}
 .header .login-info .divider { color: #fff; }
 .header .login-info .icon-envelope { position: relative; }
 .header .login-info .icon-envelope em { position: absolute; color: #e04343; top: -6px; right: 1px; font-size: 18px; }
