@@ -2,7 +2,7 @@
 /* 登录弹层模块 */
 @import"../module/layer-login.css";
 /* head */
-.header { position: relative; width: 100%; height: 550px; margin: 0 auto; background: #504986 url(../../img/home/head_bg.png) center top no-repeat; background-size: 100%;overflow: hidden; }
+.header { position: relative; width: 100%; height: 550px; margin: 0 auto; background: #504986 url(../../img/home/head_bg.png) center top repeat-x; overflow: hidden; }
 /* 顶部区 */
 .top-bar {background: none;}
 

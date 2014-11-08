@@ -1,0 +1,18 @@
+@charset "utf-8";
+.P-register .row-fluid .span7,
+.P-login .row-fluid .span7 { border-right: 1px solid #ddd; }
+.P-login .controls .forget { padding-left: 93px; }
+.P-login .form-horizontal .controls .input-small,
+.P-register .form-horizontal .controls .input-small { width: 105px; }
+.P-login .submit .btn,
+.P-register .submit .btn,
+.P-login .span5 .btn,
+.P-register .span5 .btn { width: 100px; padding: 4px 0; letter-spacing: 0.5em; }
+.P-login .main-content,
+.P-register .main-content{margin-top: 50px;} 
+.P-login .main-content .title,
+.P-register .main-content .title{padding: 50px 0 30px 180px;}
+.P-login .main-content input[type="checkbox"],
+.P-login .main-content .txt，
+.P-register .main-content input[type="checkbox"],
+.P-register .main-content .txt{vertical-align: middle;}
