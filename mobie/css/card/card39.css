@@ -1,0 +1,14 @@
+.card39 {
+  position: relative;
+}
+
+.card39 .icon-video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(2);
+}
+
+.card39 img {
+  width: 100%;
+}

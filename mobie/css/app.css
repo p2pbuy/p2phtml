@@ -1,0 +1,52 @@
+@charset 'utf-8';
+/* 顶导 */
+.header{line-height:38px;height:38px;text-align:left;background:#747ac6;}
+.header .logo{height:38px;padding-left:35px;color:#fff;background:url(../img/common/logo.png) 10px center no-repeat;background-size:20px 20px;}
+.header .title{font-size:16px;font-weight:bold;vertical-align:middle;}
+.header .subtitle{font-size:12px;padding-left:5px;}
+.header .title{font-size:14px;line-height:38px;height:38px;margin:0;padding:0;text-align:center;text-indent:-60px;color:#fff;}
+/* 搜索 */
+.search-box{box-sizing:border-box;width:100%;height:72px;padding:16px;}
+.search-box .inner{position:relative;box-sizing:border-box;width:100%;height:100%;border:1px solid #747ac6;}
+.search-box .w-input{font-size:16px;line-height:30px;height:30px;padding:3px;vertical-align:top;border:0;}
+.search-box .btn-search{font-size:16px;line-height:38px;display:block;width:66px;height:38px;text-align:center;color:#fff;background-color:#747ac6;}
+/* mini搜索 */
+.mini-search-box .inner{position:relative;padding-right:8px;}
+.mini-search-box .w-input{line-height:24px;box-sizing:border-box;width:100%;height:24px;padding:3px;border:0;}
+.mini-search-box .btn-search{font-size:0;position:absolute;top:8px;right:5px;width:24px;height:24px;background:url(http://google.github.io/material-design-icons/action/svg/ic_search_24px.svg) center center no-repeat;background-size:18px 18px;}
+/* 导购 */
+.navigation{line-height:30px;position:relative;width:100%;height:30px;}
+.navigation .tit{display:inline-block;height:100%;padding:0 3px;color:#fff;background-color:#747ac6;}
+.navigation .good-sort,.navigation .more-sort{display:inline-block;height:30px;vertical-align:top;}
+.navigation .more-sort{position:absolute;z-index:10;top:30px;left:0;width:100%;height:auto;}
+.navigation .good-sort li,.navigation .more-sort li{position:relative;vertical-align:top;}
+.navigation .good-sort li a,.navigation .more-sort li a{font-size:12px;display:block;padding:0 8px;color:#333;}
+.navigation .good-sort li.cur a,.navigation .more-sort li.cur a{color:#747ac6;}
+.navigation .good-sort .ico-arrowdown{vertical-align:middle;}
+/* 商品展示 */
+.good-show{padding:8px;}
+.good-show .good-list{margin-left:-10px;}
+.good-show .good-li{box-sizing:border-box;width:50%;margin:0 0 10px 0;padding:0 0 0 10px;}
+.good-show .good-box{position:relative;height:150px;}
+.good-show .pic{overflow:hidden;height:100%;}
+.good-show .pic img{min-width:100%;min-height:100%;}
+.good-show .cover{font-size:12px;line-height:18px;position:absolute;right:0;bottom:0;left:0;overflow:hidden;height:36px;padding:24px 5px 4px;color:#fff;background-image:-webkit-gradient(linear,50% 0%,50% 100%,from(rgba(0,0,0,0)),to(rgba(0,0,0,.9)));}
+.good-show .good-price{font-size:18px;font-weight:bold;line-height:40px;height:40px;padding: 0 8px;}
+.good-show .good-price .unit{padding:0 4px 0 0;}
+.good-show .good-type{line-height:40px;height:40px;padding: 0 8px;}
+.good-show .good-type .size,
+.good-show .good-type .color{text-align: center;}
+.good-show .good-intro{height: 32px;line-height: 16px;padding: 4px 8px;overflow: hidden;}
+.good-show .good-intro .more{padding: 0 0 0 5px;}
+.good-show .good-standard,
+.good-show .good-cost{height: 40px;line-height: 40px;padding: 0 8px;}
+.good-show .opt{width: 40px;text-align: center;font-family: "Tahoma";color: #ccc;}
+/* 商品详情 */
+.good-detail{padding:0;}
+.good-detail .good-box{height:270px;}
+.good-detail .cover{padding:100px 10px 4px;}
+/* 标题 */
+.title{line-height:30px;height:30px;margin:10px 0 0;padding:0 8px;}
+/* 按钮 */
+.btn-back{font-size:14px;width:60px;color:#fff;}
+.btn-back:before{display:inline-block;width:24px;height:24px;content:' ';vertical-align:middle;background:url(http://google.github.io/material-design-icons/hardware/svg/ic_keyboard_arrow_left_24px.svg) left center;}

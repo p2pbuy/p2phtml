@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*主要处理框架元素的布局*/
+/*.card25 .item-minor,
+.card25 .mod-operate,
+.card25 .item-other{padding: 0;}*/
+.card25 .operate-inner {
+  height: 54px;
+}
+
+.card25 .operate-inner .icon-font-follow,
+.card25 .operate-inner .txt-xxs {
+  padding: 3px 0 0;
+}

@@ -1,0 +1,33 @@
+.card38 .star-box {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.card38 .star-box .icon-font-star {
+  margin: 0 20px 0 0;
+}
+
+.card38 .star-box .icon-font-star:last-child {
+  margin-right: 0;
+}
+
+.card38 .icon-font-star:active,
+.card38 .icon-font-star:hover,
+.card38 .star-choosed {
+  color: #fb9a00;
+}
+
+.card38 .star-info {
+  padding: 0 0 10px;
+  text-align: center;
+}
+
+.card38 .more-detail {
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.card38 .more-detail a {
+  text-decoration: none;
+}

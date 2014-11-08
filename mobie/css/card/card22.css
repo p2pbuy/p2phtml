@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*Sass基础方法*/
+/*flex布局*/
+/*处理flex值*/
+/*处理flex方向*/
+/*处理flex水平对齐方式*/
+/*处理flex垂直对齐方式*/
+/*线性渐变*/
+/*px = dp * (dpi / 160)*/
+/*高清屏图片配置*/
+.card22 {
+  text-align: center;
+  border-bottom: 0 none;
+}
+.card22 .card-inner {
+  display: inline-block;
+  position: relative;
+}
+.card22 img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.card22.roundedcorner img {
+  border-radius: 3px;
+}
+.card22 .card-title {
+  height: 32px;
+  line-height: 32px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 9px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  box-sizing: border-box;
+  text-align: left;
+}

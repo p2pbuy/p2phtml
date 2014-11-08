@@ -1,0 +1,31 @@
+/*MODULE*/
+.module-trend .head-bar {
+  position: relative;
+  padding: 7px;
+  background-color: #f8f8f8;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.module-trend .head-bar .icon-font-arrow-down {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+
+.module-trend .head-bar .title {
+  padding: 0;
+}
+
+.module-trend .module-box .line-bottom:last-child {
+  border-bottom: 0;
+}
+
+.module-trend .card-list {
+  width: 280%;
+}
+
+.module-trend .card-list li {
+  margin: 10px 5px 10px 0;
+}

@@ -1,0 +1,42 @@
+.card27 .title {
+  padding: 6px 0 12px 0;
+}
+
+.card27 .main-content {
+  padding: 10px 12px;
+  overflow: hidden;
+}
+
+.card27 .media-pic {
+  text-align: center;
+}
+
+.card27 .media-pic img {
+  max-width: 100%;
+}
+
+.card27 .media-txt {
+  padding: 10px 0 0;
+  line-height: 18px;
+}
+
+.card27 .more-detail {
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.card27 .more-detail a {
+  text-decoration: none;
+  display: block;
+}
+
+.card27 .more-detail .icon-font {
+  margin-right: 3px;
+  vertical-align: -1px;
+}
+
+.card27 .more-detail .icon-font-arrow-down {
+  margin-left: 3px;
+  vertical-align: middle;
+}

@@ -1,0 +1,35 @@
+.module-cover .mod-media {
+  margin: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  height: 80px;
+}
+
+.module-cover .info-synopsis {
+  padding: 10px 0 0;
+}
+
+.module-cover .item-minor {
+  margin-top: 14px;
+}
+
+.module-cover .bg_cover {
+  display: block;
+}
+
+.module-cover {
+  background-color: #fff;
+}
+
+.module-cover .item-main {
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.module-cover .mc-main {
+  padding: 0 0 10px 15px;
+  margin-top: -40px;
+}
+
+.module-cover .iconimg {
+  margin-right: 5px;
+}

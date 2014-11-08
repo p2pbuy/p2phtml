@@ -1,0 +1,31 @@
+/*CARD*/
+.card36 .media-graphic .item-main {
+  height: 36px;
+}
+
+.card36 .media-graphic .item-minor {
+  padding: 6px 0 0;
+  position: relative;
+}
+
+.card36 .operate-inner .icon-font-cart,
+.card36 .operate-inner .txt-xxs {
+  color: #7fa9dc;
+}
+
+.card36 .operate-inner .txt-xxs {
+  padding: 3px 0 0;
+}
+
+.card36 .mct-num {
+  color: #ff7200;
+}
+
+.card36 .resent-price {
+  padding: 0 0 0 12px;
+}
+
+.card36 .other-info {
+  position: absolute;
+  right: 10px;
+}

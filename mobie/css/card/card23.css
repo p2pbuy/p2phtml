@@ -1,0 +1,20 @@
+/*CARD*/
+.card23 .box-col {
+  position: relative;
+  height: 33px;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.card23 .box-col .mct-c {
+  margin: 8px 0 0 0;
+}
+
+.card23 .line-separate:before {
+  height: 33px;
+  top: 12px;
+}
+
+.card23 .box-col > div {
+  height: 12px;
+}

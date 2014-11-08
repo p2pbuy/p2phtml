@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*主要处理框架元素的布局*/
+.card11 .card8 .title {
+  padding: 8px 8px 2px 8px;
+}
+
+.card8 .operate-inner .icon-font-cart,
+.card8 .operate-inner .txt-xxs {
+  color: #7fa9dc;
+}
+
+.card8 .operate-inner .txt-xxs {
+  padding: 3px 0 0;
+}

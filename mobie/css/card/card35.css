@@ -1,0 +1,18 @@
+/*CARD*/
+.card35 {
+  font-size: 0;
+  padding: 0 0 8px 10px;
+  box-sizing: border-box;
+}
+
+.card35 .item-box {
+  display: inline-block;
+  width: 33.33%;
+  margin: 0;
+  padding: 8px 8px 0 0;
+  box-sizing: border-box;
+}
+
+.card35 .item-box img {
+  width: 100%;
+}

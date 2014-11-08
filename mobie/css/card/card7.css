@@ -1,0 +1,16 @@
+.card7 {
+  padding: 10px 0 10px 12px;
+  overflow: hidden;
+}
+
+.card7 .title {
+  padding: 0 0 6px 0;
+}
+
+.card7 .content-text {
+  line-height: 1.4em;
+}
+
+.card7 .info-footer {
+  padding: 10px 0 0;
+}

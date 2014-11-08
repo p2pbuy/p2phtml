@@ -1,0 +1,23 @@
+/*CARD*/
+.card4 .layout-box {
+  height: 32px;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 6px 0 6px 12px;
+}
+
+.card4 .plus-m .icon-arrow-right {
+  margin: 0 0 0 5px;
+  font-size: 1.25rem;
+}
+
+.card4 .iconimg {
+  margin: 0 10px 0 0;
+}
+
+.card4 .mct-a {
+  vertical-align: middle;
+}
