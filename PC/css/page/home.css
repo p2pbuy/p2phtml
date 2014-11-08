@@ -2,10 +2,19 @@
 /* 登录弹层模块 */
 @import"../module/layer-login.css";
 /* head */
-.header { position: relative; width: 100%; height: 550px; margin: 0 auto; background: #504986 url(../../img/home/head_bg.png) center top repeat-x; overflow: hidden; }
+.header { position: relative; width: 100%; height: 720px; margin: 0 auto; background: #504986 url(../../img/home/head_bg.png) center top repeat-x; overflow: hidden; }
+.header .mask{position: absolute;width: 100%;height: 100%;background: #000;opacity: 0.75;}
+.header .cover{position: relative;z-index: 2;width: 100%;height: 100%;}
+/*logo*/
+.header .logo{position: absolute;margin: 0;left: 15px;top: 5px;}
 /* 顶部区 */
-.top-bar {background: none;}
-
+.header .top-bar {background: none;}
+/*搜索*/
+.header .slogan{position: absolute;top: 200px;width: 100%;text-align: center;color: #fff;}
+.header .slogan .title{font-size: 56px;}
+.header .slogan .subtitle{font-size: 18px;}
+/*搜索*/
+.header .search-box{position:absolute;top: 300px;left: 50%;margin-left: -339px;}
 /* 购买步骤 */
 .buy-info { position: absolute; height: 165px; padding: 55px 0 0; background: rgba(0, 0, 0, 0.7); bottom: 0; left: 0; right: 0; }
 .buy-info .buy-step { width: 852px; margin: 0 auto; font-size: 0; }
@@ -19,7 +28,6 @@
 .buy-info .step-six { background: url(../../img/home/buy_step6.png) center center no-repeat; }
 .buy-info .step { width: 88px; height: 88px; margin: 0 auto; background-size: 88px 88px; }
 /* 商品show */
-.goods-show { }
 .goods-show .title { margin: 35px 0 20px; color: #646769; text-align: center; line-height: 1em; font-weight: normal; }
 .goods-show .title span { display: block; font-size: 28px; }
 .goods-show .title em { display: block; margin: 5px 0 0; font-size: 16px; }

@@ -1,7 +1,5 @@
 @charset"utf-8";
 body { background: #fff; }
-.container { margin: 0 auto; max-width: 1000px; -width: 1000px; }
-.container > hr { margin: 50px 0; }
 .divider { margin: 0; padding: 0 5px; color: #333; }
 /* 字重 */
 .W-fb { font-weight: bold; }
@@ -35,7 +33,7 @@ body { background: #fff; }
 .top-bar { height: 48px; background: #333; color: #fff; }
 .top-bar .inner { position: relative; width: 100%; margin: 0 auto; }
 /* 搜索大 */
-.search-box { width: 688px; margin: 80px auto 0; }
+.search-box { width: 678px; margin: 80px auto 0; }
 .search-box .search-wrapper { position: relative; width: 678px; height: 58px; background: #fff; }
 .search-box .search-input { width: 528px; height: 50px; margin: 0; line-height: 30px; border: none; background: #fff; box-shadow: none; font-size: 18px; }
 .search-box .search-input:focus { outline: none; border: none; box-shadow: none; }
@@ -78,7 +76,7 @@ body { background: #fff; }
 .navbar .nav li a { text-align: center; font-weight: bold; }
 .navbar .nav li:first-child a { border-left: 0; border-radius: 3px 0 0 3px; }
 .navbar .nav li:last-child a { border-right: 0; border-radius: 0 3px 3px 0; }
-.main-content { width: 1000px; margin: 0 auto; padding-bottom: 60px; min-height: 500px; border-bottom: 1px solid #d9d9d9; }
+.main-content { width: 1000px;margin: 0 auto; padding-bottom: 60px; min-height: 500px; border-bottom: 1px solid #d9d9d9; }
 /* 进度 */
 .step-trilogy { padding: 15px 0; border-top: 1px solid #ccc; }
 .step-trilogy .step { display: inline-block; height: 30px; line-height: 30px; margin: 0 10px 0 0; padding: 0 20px; background: #f2f2f2; color: #333; text-decoration: none; font-weight: bold; }
@@ -168,7 +166,7 @@ body { background: #fff; }
 .alert .content { margin: 10px 0; }
 .alert .btn-box { padding: 5px 0 0; text-align: right; }
 .alert .btn-box .btn { margin-left: 10px; }
-@charset"utf-8";
+
 /* 上下图文列表 */
 .box-mediaA .list-meida { }
 .box-mediaA .item { float: left; margin: 16px 0 0 16px; width: 18%; _display: inline; }
@@ -183,7 +181,7 @@ body { background: #fff; }
 .box-mediaB .item-list { float: left; margin-left: 10px; _display: inline; }
 /* 图文列表 */
 .graphic-list { font-size: 0; }
-ul.graphic-list > li { background-color: #efefef; margin: 0 10px 20px 10px; padding: 0; font-size: 14px; }
+.graphic-list > li { background-color: #efefef; margin: 0 10px 20px 10px; padding: 0; font-size: 14px; }
 .graphic-list li:hover { box-shadow: 0 3px 10px #999; background-color: #fff; cursor: pointer; }
 .graphic { overflow: hidden; }
 .graphic .mod-media { float: left; width: 176px; }
