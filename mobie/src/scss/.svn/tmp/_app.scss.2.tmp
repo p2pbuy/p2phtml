@@ -1,0 +1,640 @@
+@charset "utf-8";
+/* 主要处理框架元素的布局 */
+.card-box {
+	margin: 0 0 5px 0;
+	overflow: hidden;
+}
+.card-box.type-gap > div {
+	margin-bottom: 8px;
+}
+.card-box > .title {
+	margin: 10px 0 5px 12px;
+}
+.card-box .more-detail {
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	margin-top: -1px;
+}
+@media (-webkit-min-device-pixel-ratio:2), (min-device-pixel-ratio:2) {
+	.card-box .more-detail {
+		margin-top: 0;
+	}
+}
+.card-box .more-detail a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+.card-box .more-detail .icon-font-arrow-right {
+	margin-left: 3px;
+	vertical-align: -2px;
+}
+.card-box .box-col img{width:100%;}
+/* feed card */
+.card-box .card9 {
+	margin-bottom: 9px;
+}
+.card9 .card {
+	margin-bottom: 0;
+	margin-top: 7px;
+	background-color: #f7f7f7;
+}
+.card9 .extend-content .card {
+	background-color: #fff;
+}
+.card9 .mod-media {
+	margin: 0;
+}
+.card9 .extend {
+	padding:0 0.8rem 0.8rem;
+}
+.card9 .card .media-graphic .item-list {
+	padding: 5px 0 0 11px;
+}
+.card9 .operate-inner {
+	height: 54px;
+}
+.card9 .main-content {
+	overflow: hidden;
+	padding: 8px;
+}
+.card9 .media-pic {
+	text-align: left;
+	margin: 5px 0 0 0;
+	overflow: hidden;
+}
+.card9 .media-pic img {
+	max-width: 157px;
+}
+.card9 .media-txt {
+	padding: 8px 0 0;
+	line-height: 18px;
+}
+.card9 .media-reward {
+	padding: 16px;
+	border-left: 3px solid #c1f5e6;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 22px;
+}
+.card9 .more-detail {
+	height: 36px;
+	text-align: center;
+	line-height: 24px;
+	margin-bottom: -1px;
+}
+.card9 .more-detail a {
+	padding: 6px 0;
+	text-decoration: none;
+}
+.card9 .more-detail .icon-font, .card9 .more-detail .icon {
+	vertical-align: -2px;
+}
+.card9 .more-detail .icon-font-arrow-down {
+	margin-left: 3px;
+	vertical-align: middle;
+}
+.card9 .more-detail .num {
+	padding: 0 0 0 3px;
+	vertical-align: top;
+}
+.card9 .more-detail .line-separate::after{
+	display:none;
+}
+.card9 .item-main {
+	overflow: hidden;
+	font-weight: bold;
+	line-height: 18px;
+}
+.card9 .more-detail a {
+	padding: 6px 0;
+}
+.card9 header .item-minor {
+	padding: 0;
+	line-height: 1rem;
+}
+.card9 header .media-main:before {
+	content: " ";
+	position: absolute;
+	border: 1px solid #e4e4e4;
+	width: 34px;
+	height: 34px;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+}
+@media (-webkit-min-device-pixel-ratio:2), (min-device-pixel-ratio:2) {
+	.card9 header .media-main:before {
+		width: 68px;
+		height: 68px;
+		-webkit-transform: scale(0.5) translate(-50%, -50%);
+		-webkit-backface-visibility: hidden;
+		-webkit-transform-style: preserve-3d;
+		z-index: 2;
+		overflow: hidden;
+	}
+}
+.card9 header .mod-media {
+	margin-top: 12px;
+	margin-bottom: 8px;
+}
+.card9 .item-minor .from {
+	padding: 0 0 0 8px;
+}
+.card9 .media-graphic {
+	padding:0 0.8rem;
+}
+.card9 .media-graphic .operate-box {
+	position: relative;
+	display: block;
+	width: 60px;
+	padding:0.8rem 0 0.8rem 0.8rem;
+	text-align: right;
+}
+.card9 .media-graphic .operate-box .btn{
+	display:inline-block;
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	font-size: 1.2rem;
+}
+.card9 .mod-operate {
+	padding: 4px 0;
+}
+.card9 .operate-box .icon-font {
+	position: absolute;
+	margin: 0;
+	top: 8px;
+	right: 8px;
+}
+.card9 .weibo-detail {
+	padding: 4px 12px 10px;
+}
+.card9 .default-content img, .card9 .extend-content img {
+	vertical-align: text-bottom;
+}
+.card9 .default-content {
+	word-wrap: break-word;
+	line-height: 1.8rem;
+	margin-bottom: 0.5rem;
+}
+.card9 .extend-content {
+	position: relative;
+	margin: 7px -10px -10px;
+	background-color: #f7f7f7;
+}
+.card9 .extend-content .weibo-original {
+	line-height: 1.25rem;
+}
+.card9 .extend-content > .inner {
+	padding: 10px;
+}
+.card9 .head-bar {
+	position: relative;
+	padding: 10px 0 10px 12px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	height: 33px;
+}
+.card9 .head-bar .title {
+	color: #e14123;
+	margin: 0;
+}
+.card9 .head-bar .icon-font-arrow-down {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.card9 .media-pic-list {
+	overflow: hidden;
+	width: 248px;
+	margin-top: 7px;
+}
+.card9 .media-pic-list ul {
+	margin-top: -5px;
+}
+.card9 .media-pic-list li {
+	float: left;
+	width: 76px;
+	height: 76px;
+	margin: 5px 5px 0 0;
+}
+.card9 .media-pic-list li img {
+	height: 76px;
+	width: 76px;
+}
+.card9 .type-scube {
+	width: 170px;
+}
+.card9 .comment-show {
+	background-color: #f7f7f7;
+	margin-top: 10px;
+	padding: 8px;
+}
+.card9 .line-gradient {
+	height: 24px;
+}
+.card9 .btn-box {
+	height: 34px;
+	margin: 8px;
+}
+.card9 .btn-surl {
+	margin-top: -4px;
+}
+.card9 .mod-media, .card9 .mod-media img {
+	border-radius: 50%;
+	overflow: hidden;
+}
+/* card2 */
+.card2 .box-col{
+	position: relative;
+    height:28px;
+    padding:7px 0;
+    text-align: center;
+}
+.card2 .mct-s,
+.card2 .box-col .icon-font{
+	color:rgb(81,110,160);
+}
+.card2 .txt-bottom{
+    margin:4px 0 0 0;
+}
+.card2 .line-separate:before{
+	height:28px;
+	top:7px;
+}
+.card2 .box-col>div{
+	height:12px;
+}
+/*card19*/
+.card19 {
+ 	font-size: 0; 
+ 	letter-spacing: 0;
+ 	word-spacing: 0;
+}
+.card19 .iconimg{
+    margin:0 0 1rem 0
+}
+.card19 .box-col{
+	position:relative;
+	display:inline-block;
+	padding:0.8rem;
+	box-sizing:border-box;
+}
+.card19 .line-separate:nth-child(3n)::before{
+	border-right:0;
+	background:none;
+}
+.card19 .box-col .content-main{
+	padding:5px;
+	text-align:center;
+}
+
+/*信息详情*/
+article#news-detailA-article .weibo-detail,
+article#news-detailB-article .weibo-detail,
+article#news-detailC-article .weibo-detail{
+	padding:0;
+}
+article#news-detailA-article .media-graphic,
+article#news-detailA-article .default-content,
+article#news-detailB-article .media-graphic,
+article#news-detailB-article .default-content,
+article#news-detailC-article .media-graphic,
+article#news-detailC-article .default-content{
+	padding:0 0.8rem
+}
+article#news-detailA-article .extend .media-graphic,
+article#news-detailB-article .extend .media-graphic,
+article#news-detailC-article .extend .media-graphic {
+	padding: 0;
+	margin-top: 0.8rem;
+}
+article#news-detailA-article .extend .media-graphic .item-list,
+article#news-detailB-article .extend .media-graphic .item-list,
+article#news-detailC-article .extend .media-graphic .item-list{
+	padding: 6px 11px;
+}
+article#news-detailA-article .extend .media-graphic .mod-media,
+article#news-detailA-article .extend .media-graphic .media-main,
+article#news-detailA-article .extend .media-graphic img,
+article#news-detailB-article .extend .media-graphic .mod-media,
+article#news-detailB-article .extend .media-graphic .media-main,
+article#news-detailB-article .extend .media-graphic img,
+article#news-detailC-article .extend .media-graphic .mod-media,
+article#news-detailC-article .extend .media-graphic .media-main,
+article#news-detailC-article .extend .media-graphic img{
+	border-radius: 0;
+}
+/* 消息模块 */
+.module-news .card25 {
+	padding: 0 0.8rem;
+	background-color: #fff;
+}
+.module-news .card25 .item-main {
+	line-height: 1em;
+	padding-top: 3px;
+}
+.module-news .card25 .item-minor, .module-news .card25 .item-other {
+	padding: 5px 0 0;
+	line-height: 1em;
+}
+.module-news .card25 .item-single {
+	padding-top: 10px;
+}
+.module-news .plus {
+	position: relative;
+}
+.module-news .plus .btn{
+	height:2.4rem;
+	line-height: 2.4rem;
+}
+.module-news .plus .bubble-dot-red {
+	position:absolute;
+	bottom: 10px;
+	right:0;
+	font-size: 9px;
+}
+.module-news .plus .time {
+	position: absolute;
+	width: 3rem;
+	line-height: 1em;
+	right: 0;
+	top: 7px;
+	text-align: right;
+}
+/*我模块*/
+.module-me .cover-content{padding:1rem 0 2rem;}
+.module-me .pic-box{
+	position:relative;
+	width:10rem;
+	height:10rem;
+	margin: 0 auto 1rem;
+	overflow:hidden;
+}
+.module-me .pic-box img{
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+}
+.module-me .nick-name,
+.module-me .intro{padding:0.5rem 1rem;text-align: center}
+/* 相机 */
+.W_camera {
+	width: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.W_camera .m-wrap {
+	overflow: hidden;
+}
+.W_camera ul li {
+	display: inline-block;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+.W_camera ul li .item, .W_camera ul li .item .pic {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+/*选择愿望*/
+.wish-box{
+	position:relative;
+	height:11.6rem;
+	margin-top: 1rem;
+	padding:0.9rem 0 0.9rem 0.9rem;
+	overflow:hidden;
+}
+.wish-box .wish-type{
+	width:9.8rem;
+	height:9.8rem;
+	line-height: 9.8rem;
+	margin-right: 1.5rem;
+	background-image:url(../img/wish-clip.png);
+	background-repeat: no-repeat;
+	background-size: 98px 298px;
+	text-align: center;
+	font-size: 1.4rem;
+}
+.wish-box:before,
+.wish-box:after{
+	content:" ";
+	position:absolute;
+	width:5.6rem;
+	height:5.6rem;
+	right:-2.8rem;
+	top:-2.8rem;
+	-webkit-transform: rotate(-45deg);
+}
+.wish-box:after{
+	text-align: center;
+	line-height: 2.6rem;
+	font-size: 2rem;
+	-webkit-transform: rotate(0);
+	color:#fff;
+	right:0;
+	top:0;
+	text-indent: 3.4rem;
+}
+.wish-box.small .wish-type{background-position: 0 0;}
+.wish-box.small:before{
+	background-color: #ded179;
+}
+.wish-box.small:after{
+	content:"S";
+}
+.wish-box.middle .wish-type{background-position: 0 -100px;}
+.wish-box.middle:before{
+	background-color: #e1b36b;
+}
+.wish-box.middle:after{
+	content:"M";
+}
+.wish-box.big .wish-type{background-position: 0 -200px}
+.wish-box.big:before{
+	background-color: #da8aaf;
+}
+.wish-box.big:after{
+	content:"L";
+}
+.wish-box .item{
+	height:1.8rem;
+	line-height: 1.8rem;
+	padding-bottom: 1rem;
+	font-family: "Tahoma";
+}
+.wish-box .item:last-child{
+	height:3.2rem;
+}
+.wish-box .item .tit{
+	display:inline-block;
+	width:5rem;
+	text-align: justify;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+.wish-box .item span{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+.wish-box .item .W-icon{
+	vertical-align: middle;
+	margin-right: 0.5rem;
+}
+.wish-box .btn{
+	width:11.1rem;
+	height:3rem;
+	line-height: 3rem;
+	border-radius: 2px;
+	color:$txtColorA;
+}
+/*发现*/
+article#main-find{
+	padding:1rem 0 1rem;
+}
+article#main-find .card-box:first-child{
+	padding:0.8rem;
+	background-color: $baseBarBgA;
+}
+/* 关于我 */
+article#main-me {
+	padding: 0.8rem 0 3rem;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+/* 写愿望 */
+.wrap-send-wish .content-input{
+	margin-bottom:0.9rem;
+}
+.wrap-send-wish .content-input textarea{
+	width:100%;
+	height:6rem;
+	border:none;
+	resize:vertical;
+}
+.wrap-send-wish .content-input .input-area{
+	padding:1rem;
+}
+.wrap-send-wish .lbs{
+	width:100%;
+	overflow:hidden;
+}
+.wrap-send-wish .lbs span{
+	float:left;
+	color:#985a3d;
+	
+}
+.wrap-send-wish .lbs em{
+	float:right;
+	color:$txtColorC;
+}
+.wrap-send-wish .content-input footer{
+	text-align:center;
+}
+.wrap-send-wish .content-input footer a{
+	position:relative;
+	padding:0.8rem 0;
+}
+.wrap-send-wish .reward-input b{
+	width:6.2rem;
+	background:#e1b36b;
+	padding:1rem 0;
+	text-align:center;
+}
+.wrap-send-wish .reward-input span input{
+	width:95%;
+	line-height:5.6rem;
+	text-align:center;
+	border:none;
+}
+.wrap-send-wish .reward-input{
+	position:relative;
+	z-index:3;
+	padding:0.1rem 0;
+}
+.wrap-send-wish .wish-type{
+	position:relative;
+	margin:0 0.9rem;
+}
+.wrap-send-wish .wish-type .container{
+	position:relative;
+	z-index:2;
+	min-height:2rem;
+}
+.wrap-send-wish .wish-type .box-shadow{
+	height:0.5rem;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(rgba(218,218,218,0.5)), color-stop(rgba(250,250,250,0.2)));
+    background-image: -webkit-linear-gradient(top, rgba(218,218,218,0.5),rgba(250,250,250,0.2));
+    background-image: linear-gradient(to bottom, rgba(218,218,218,0.5),rgba(250,250,250,0.2));
+}
+.wrap-send-wish .wish-type-hide .card-box{
+	display:none;
+}
+.wrap-send-wish .wish-type-hide .toggle{
+	position:absolute;
+	left:50%;
+	width:6rem;
+	height:6rem;
+	text-align:center;
+	
+}
+.wrap-send-wish .wish-type-hide .toggle .inner{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:$baseBg;
+	left:-50%;
+	top:-50%;
+	border-radius:50%;
+	box-shadow:0 0 1px 1px $baselineColor,0 0 8px 1px rgba(221,220,216,0.5);
+}
+.wrap-send-wish .wish-type-hide .toggle .opt{
+	width:100%;
+	height:1rem;
+	position:absolute;
+	z-index:2;
+	background:$baseBg;
+	left:-50%;
+	top:-14%;
+	text-align:center;
+}
+
+/*发现 轮播*/
+.ad-slider-box .ani-loop{
+	animation-duration:15s;
+	animation-name:ani-loop;
+	animation-iteration-count:infinite;
+	animation-fill-mode:both;
+
+	-webkit-animation-duration:15s;
+	-webkit-animation-name:ani-loop;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-fill-mode:both;
+}
+@keyframes ani-loop{
+	27%{ margin-left: 0;}
+	33%,60%{margin-left: -100%;}
+	66%,97%{margin-left: -200%;}
+	100%{margin-left: 0%;}
+}
+@-webkit-keyframes ani-loop{
+	27%{ margin-left: 0;}
+	33%,60%{margin-left: -100%;}
+	66%,97%{margin-left: -200%;}
+	100%{margin-left: 0%;}
+}
+
+/*系统通知*/
+.card-msg-sys{ margin-top: 10px;}
+.card-msg-sys .time{ margin-bottom: 4px; text-align: center;}
+.card-msg-sys .msg-con{ padding: 16px; font-size: 1.6rem;}
+.card-msg-sys .msg-con p{ line-height: 2.2rem;}
+.card-msg-sys .msg-con  .pic{ width: 100%; margin: 6px 0;}
+.card-msg-sys .go-more{ display:block ;height: 50px; text-align: center; line-height: 50px; margin:6px 0 -16px 0;}

@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* 框架 */
+body > section {
+	position:absolute;
+	height: 100%;
+	background-color: $basePageBgA;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+	box-shadow: 1px 0px 4px #ddd;
+}
+body > section > article {
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	top: 44px;
+	bottom: 0;
+}
+body > section > article > .inner{
+	min-height: 101%;
+}
+body > section#main article {
+	bottom: 44px;
+}
+body > section#main article#main-find {
+	top: 0;
+	padding-top: 0;
+}
+.header,
+.footer {
+	position:absolute;
+	width: 100%;
+	height: 44px;
+	text-align: center;
+	width: 100%;
+	line-height: 40px;
+	background-color: $baseBarBgA;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	z-index: 10;
+}
+
+/* 顶导 */
+.header {
+	top: 0;
+}
+.header .inner {
+	color: #fff;
+}
+.header .opt-l,
+.header .opt-r {
+	display: block;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	cursor: pointer;
+}
+.header .title {
+	height: 38px;
+	margin-top: 4px;
+	padding: 0 10px;
+	line-height: 38px;
+	color: #fff;
+	font-size: 18px;
+}
+.header .title .icon_arrowDown {
+	margin-left: 3px;
+}
+.header .icon-code2D,
+.header .icon-back {
+	vertical-align: middle;
+}
+
+/* 底导 */
+.footer {
+	bottom: 0;
+	padding: 1px 0 0;
+	background-color: $baseBg;
+}
+.footer .inner {
+	width: 100%;
+	height: 100%;
+	background-color: $baseBarBgB;
+}
+.footer .txt {
+	height: 20px;
+	line-height: 20px;
+	font-size: 10px;
+	vertical-align: top;
+}
+.footer .icon-senderBtn {
+	margin: 3px auto 0;
+	vertical-align: middle;
+}
+.footer .active {
+	background-color: $baseBarBgActive;
+	color: $txtColorG;
+}
+.footer .active .txt {
+	color: $txtColorG;
+}
+
+/* =============基础元素============== */
+.S-bgA {
+	background-color: $baseCardBgA;
+}
+.S-bgB {
+	background-color: $baseCardBgB;
+}
+.S-bgC {
+	background-color: $baseBgC;
+}
+.S-bgD {
+	background-color: $baseBgD;
+}
+.S-bgE {
+	background-color: $baseBgE;
+}
+.S-bgF {
+	background-color: $baseBgF;
+}
+.iconimg {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* 表单 */
+.search-box {
+	padding: 3px 0;
+}
+.search-box .icon-search {
+	margin: 4px 4px 0 4px;
+}
+.search-box input[type="search"] {
+	border: 0;
+	height: 22px;
+	line-height: 22px;
+	vertical-align: top;
+	margin: 2px 3px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* 行内列表 */
+ul.inline {
+	font-size: 0;
+}
+ul.inline li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+/* 块列表 */
+ul.lists {
+}
+ul.lists li {
+	position: relative;
+	padding: 0.8em;
+}
+ul.lists li > div {
+	line-height: 24px;
+}
+ul.lists li.arrow:before {
+	position: absolute;
+	content: " ";
+	width: 10px;
+	height: 10px;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	right: 10px;
+	top: 50%;
+	margin-top: -7px;
+}
+
+/* 图文混排模块 */
+.mod-media {
+	position: relative;
+	text-align: center;
+	margin: 8px 0 8px 8px;
+}
+.mod-media .media-main {
+	position: relative;
+}
+.mod-media .icon {
+	position: absolute;
+	right: -5px;
+	bottom: -5px;
+}
+.mod-media img {
+	display: block;
+	vertical-align: top;
+}
+.mod-media .media-txt {
+	display: block;
+	width: 34px;
+	height: 16px;
+	line-height: 16px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 10px;
+}
+.media-graphic .item-list {
+	padding: 9px 11px;
+}
+.media-graphic .item-main {
+	font-weight: bold;
+	line-height: 18px;
+	overflow: hidden;
+}
+.media-graphic .item-main .btn {
+	vertical-align: bottom;
+	margin: 0 0 0 6px;
+}
+.media-graphic .item-minor,
+.media-graphic .item-other {
+	padding: 5px 0 0;
+	line-height: 16px;
+}
+
+/* 气泡 */
+.bubble {
+	display: inline-block;
+}
+.bubble-blue {
+	width: 24px;
+	height: 13px;
+	line-height: 13px;
+	background-color: #61c3fc;
+	border-radius: 2px;
+	color: #fff;
+	overflow: hidden
+}
+.bubble-dot-red {
+	min-width: 16px;
+	padding: 0 5px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	border-radius: 8px;
+	background-color: #fe6431;
+	color: #fff;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/* 基础常用样式 */
+.search-outer {
+	padding: 0.8rem;
+}
+.show {
+	display: block;
+}
+.hidden {
+	display: none
+}
+.size-l {
+  width: 70px;
+}
+
+.size-m {
+  width: 64px;
+}
+
+.size-s {
+  width: 50px;
+}
+
+.size-xs {
+  width: 34px;
+}

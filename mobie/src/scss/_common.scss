@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* 框架 */
+.header,
+.footer {text-align: center; background-color: $baseBgE; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); text-align: center; z-index: 10; }
+/* 顶导 */
+.header {top: 0;width: 100%; height: 44px; }
+.header .inner { color: #fff; }
+.header .opt-l,
+.header .opt-r { display: block; width: 44px; height: 44px; line-height: 44px;text-align: center; cursor: pointer; }
+.header .title { height: 38px; margin-top: 4px; padding: 0 10px; line-height: 38px; color: #fff; font-size: 18px; }
+
+/* 底导 */
+.footer { position:fixed;bottom: 0;left:0;right:0; padding: 0.8rem; background-color: $baseBgA;z-index: 99; }
+.footer .icon{color:$txtColorB;font-size: 3rem;}
+/* =============基础元素============== */
+.S-bgA { background-color: $baseBgA; }
+.S-bgB { background-color: $baseBgB; }
+.S-bgC { background-color: $baseBgC; }
+.S-bgD { background-color: $baseBgD; }
+.S-bgE { background-color: $baseBgE; }
+.S-bgF { background-color: $baseBgF; }
+.iconimg { display: inline-block; vertical-align: middle; }
+/* 表单 */
+.search-box { padding: 3px 0; }
+.search-box .icon-search { margin: 4px 4px 0 4px; }
+.search-box input[type="search"] { border: 0; height: 22px; line-height: 22px; vertical-align: top; margin: 2px 3px; width: 100%; box-sizing: border-box; }
+/* 行内列表 */
+ul.inline { font-size: 0; }
+ul.inline li { display: inline-block; font-size: 14px; }
+/* 块列表 */
+ul.lists { }
+ul.lists li { position: relative; padding: 0.8em; }
+ul.lists li > div { line-height: 24px; }
+ul.lists li.arrow:before { position: absolute; content: " "; width: 10px; height: 10px; border-right: 1px solid #ccc; border-top: 1px solid #ccc; -webkit-transform: rotate(45deg); transform: rotate(45deg); right: 10px; top: 50%; margin-top: -7px; }
+/* 图文混排模块 */
+.media-graphic {position:relative;}
+.media-graphic .mod-media { position: relative; text-align: center; margin: 8px 0 8px 8px; }
+.media-graphic .mod-media .media-main { position: relative; }
+.media-graphic .mod-media .icon { position: absolute; right: -5px; bottom: -5px; }
+.media-graphic .mod-media img { display: block; vertical-align: top; }
+.media-graphic .mod-media .media-txt { display: block; width: 34px; height: 16px; line-height: 16px; margin-top: 5px; text-align: center; font-size: 10px; }
+.media-graphic .item-list { padding: 9px 11px; }
+.media-graphic .item-main { font-weight: bold; line-height: 18px; overflow: hidden; }
+.media-graphic .item-main .btn { vertical-align: bottom; margin: 0 0 0 6px; }
+.media-graphic .item-minor,
+.media-graphic .item-other { padding: 5px 0 0; line-height: 16px; }
+.media-graphic .opt{position:absolute;bottom: 0.9rem;right:1rem;}
+
+/* 气泡 */
+.bubble { display: inline-block; }
+.bubble-blue { width: 24px; height: 13px; line-height: 13px; background-color: #61c3fc; border-radius: 2px; color: #fff; overflow: hidden }
+.bubble-dot-red { min-width: 16px; padding: 0 5px; height: 16px; line-height: 16px; text-align: center; border-radius: 8px; background-color: #fe6431; color: #fff; box-sizing: border-box; text-align: center; }
+/* 基础常用样式 */
+.size-l { width: 70px; }
+.size-m { width: 64px; }
+.size-s { width: 50px; }
+.size-xs { width: 34px; }
+
+/*步骤导航*/
+.nav-step{position:relative;padding:2rem;}
+.nav-step:before{content:" ";position:absolute;top:4rem;left:0;width:100%;border-top:1px solid $lineColorA;z-index: 1;}
+.nav-step .inner{position:relative;z-index: 2;}
+.nav-step .item-step{width:4rem;height:4rem;line-height: 4rem;margin:0 auto;text-align: center;color:$txtColorB;background-color: $baseBgB;border-radius: 50%;}
+.nav-step .active .item-step{background-color: $baseBgE;color:$txtColorD;}
+.nav-step .txt{margin-top: 0.5rem;text-align: center;font-size: 1.4rem;}
+.nav-step .active .txt{color:$txtColorE;font-weight: block;}

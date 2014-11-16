@@ -1,0 +1,91 @@
+/* 按钮 */
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	border-radius: 2.5px;
+	font-size: 1.4rem;
+}
+.btn.disable{
+	background-color: $baseBgC;
+}
+.btn:focus {
+	outline: none;
+}
+.btn-default,
+.btn-red,
+.btn-green,
+.btn-blue,
+.btn-white {
+	display: block;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid;
+}
+.btn-default {
+	color: $txtColorA;
+	border-color: #d6d6d6;
+	background: white;
+	@include dpiGet(best){
+	 	border:none;
+  		position:relative;
+  		&:before {
+		      @include dpiGet(best){
+		        content:" ";
+		        position:absolute;
+		        width:199%;
+		        height:199%;
+		        border:1px solid #d6d6d6;
+		        -webkit-transform:scale(.5) translate(-50%,-50%);
+		        border-radius: 5px;
+		        left:0;
+		        top:0;
+		      }
+		  }
+	 }
+}
+.btn-default:active {
+	background-color: #fafafa;
+}
+.btn-default .W-icon{vertical-align: middle; margin:-2px 5px 0;}
+.btn-red {
+	color: #fff;
+	border-color: #ca001c;
+	background: #de2b2b;
+}
+.btn-red:active {
+	background-color: #ca2828;
+}
+.btn-green {
+	color: white;
+	border-color: #0c9c1e;
+	background: #10b524;
+}
+.btn-green:active {
+	background-color: #0ea020;
+}
+.btn-blue {
+	color: white;
+	border-color: #145fd7;
+	background: #4a87ee;
+}
+.btn-blue:active {
+	background-color: #4274ee;
+}
+.btn-white {
+	color: #666666;
+	border-color: #f0f0f0;
+	background: white;
+}
+.btn-white:active {
+	background-color: #fefefe;
+}
+.btn-link {
+	padding: 4px 5px;
+	font-size: .75rem;
+	line-height: .74rem;
+	color: #58d3e2;
+}

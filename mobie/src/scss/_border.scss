@@ -1,0 +1,111 @@
+/* 基础card外框 */
+.line-all,
+.btn {
+  background-color: #fff;
+  border-radius: 1px;
+  border: 1px solid $lineColorA;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.15); 
+  /* For Retina */
+  @include dpiGet(best) {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $lineColorA), color-stop(50%, $lineColorA), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, $lineColorA), color-stop(100%, $lineColorA)), -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, transparent), color-stop(100%, $lineColorA)), -webkit-gradient(linear, left top, right top, color-stop(0%, $lineColorA), color-stop(50%, $lineColorA), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(top, $lineColorA 0%, $lineColorA 50%, transparent 50%), -webkit-linear-gradient(left, transparent 50%, $lineColorA 50%, $lineColorA 100%), -webkit-linear-gradient(top, transparent 50%, $lineColorA 50%, $lineColorA 100%), -webkit-linear-gradient(left, $lineColorA 0%, $lineColorA 50%, transparent 50%);
+    background-image: linear-gradient(to bottom, $lineColorA 0%, $lineColorA 50%, transparent 50%), linear-gradient(to right, transparent 50%, $lineColorA 50%, $lineColorA 100%), inear-gradient(to bottom, transparent 50%, $lineColorA 50%, $lineColorA 100%), linear-gradient(to right, $lineColorA 0%, $lineColorA 50%, transparent 50%);
+    -webkit-background-size: 100% 1px, 1px 100%, 1px 100%, 100% 1px;
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+    background-repeat: no-repeat;
+    background-position: top, right, bottom, left;
+  }
+}
+.line-all .line-all {
+  box-shadow: none;
+}
+.line-right,
+.line-separate::before {
+  border-right: 1px solid $lineColorA;
+  @include dpiGet(best) {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, $lineColorA), color-stop(100%, $lineColorA));
+    background-image: -webkit-linear-gradient(left, transparent 50%, $lineColorA 50%, $lineColorA 100%);
+    background-image: linear-gradient(to right, transparent 50%, $lineColorA 50%, $lineColorA 100%);
+    background-size: 1px 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}
+.line-left {
+  border-left: 1px solid $lineColorA;
+  @include dpiGet(best) {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $lineColorA), color-stop(50%, $lineColorA), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(left, $lineColorA 0%, $lineColorA 50%, transparent 50%);
+    background-image: linear-gradient(to right, $lineColorA 0%, $lineColorA 50%, transparent 50%);
+    background-size: 1px 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+.line-top {
+  border-top: 1px solid $lineColorA;
+  @include dpiGet(best) {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $lineColorA), color-stop(50%, $lineColorA), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(top, $lineColorA 0%, $lineColorA 50%, transparent 50%);
+    background-image: linear-gradient(to bottom, $lineColorA 0%, $lineColorA 50%, transparent 50%);
+    -webkit-background-size: 100% 1px;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+.line-bottom,
+.line-separate::after{
+  border-bottom: 1px solid $lineColorA;
+  @include dpiGet(best) {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, transparent), color-stop(100%, $lineColorA));
+    background-image: -webkit-linear-gradient(top, transparent 50%, $lineColorA 50%, $lineColorA 100%);
+    background-image: inear-gradient(to bottom, transparent 50%, $lineColorA 50%, $lineColorA 100%);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+.line-separate::before {
+  position: absolute;
+  right: -1px;
+  top: 10%;
+  content: ' ';
+  width: 1px;
+  height: 80%;
+}
+.line-separate::after {
+  position: absolute;
+  left: 10%;
+  bottom: -1px;
+  content: ' ';
+  width: 80%;
+  height: 1px;
+}
+
+@include dpiGet(best) {
+  .line-separate::before {
+    right: 0;
+  }
+  .line-separate::after {
+    bottom: 0;
+  }
+}
+
+.more-detail {
+  margin-top: -1px;
+}
+.more-detail a {
+  display: block;
+  position: relative;
+}
+.more-detail .line-separate:last-child::before {
+  border-right: 0;
+  background: none;
+}

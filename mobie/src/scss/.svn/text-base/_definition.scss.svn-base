@@ -1,0 +1,149 @@
+
+/*基础字号*/
+$baseFontSize:10px;
+
+/*文字色*/
+$txtColorA:#333;
+$txtColorB:#474747;
+$txtColorC:#979797;
+$txtColorD:#a7bcd3;
+$txtColorE:#365879;
+$txtColorF:#5b4834;
+$txtColorG:#fff;
+$txtColorH:#c06137;
+
+/*背景色*/
+$baseBg:#fdfdfc;
+$baseBgA:#8b8380;
+$baseBgB:#bbb;
+$baseBgC:#ccc;
+$baseBgD:#ddd;
+$baseBgE:#eee;
+$baseBgF:#fff;
+$basePageBgA:#f8f6ed;
+$baseCardBgA:#fefefe;
+$baseCardBgB:#f8f8f7;
+$baseBarBgA:#d36b3c;
+$baseBarBgB:#f2f2f2;
+$baseBarBgActive:#c6a582;
+
+$wishSmallColor:#ded179;
+$wishMiddleColor:#e1b36b;
+$wishBigColor:#da8aaf;
+
+/*线色*/
+$baselineColor:#d7d6d6;
+$baselineColorB:#e6e6e6;
+$baselineColorC:#dadada;
+$baselineColorD:#f2f2f2;
+$baselineColorE:#d8d8d8;
+
+/*=====基础方法======*/
+/*flex布局*/
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+/*处理flex值*/
+@mixin flex($fg: 1, $fs: null, $fb: null) {
+  -webkit-box-flex: $fg;
+  -webkit-flex: $fg $fs $fb;
+  -ms-flex: $fg $fs $fb;
+  flex: $fg $fs $fb;
+}
+/*处理flex方向*/
+@mixin flexDirection($value: row) {
+  @if $value == row-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+  } @else if $value == column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+  } @else if $value == column-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: vertical;
+  } @else {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+  }
+  -webkit-flex-direction: $value;
+  -ms-flex-direction: $value;
+  flex-direction: $value;
+}
+/*处理flex水平对齐方式*/
+// Values: flex-start | flex-end | center | space-between | space-around
+// Default: flex-start
+@mixin justifyContent($value: flex-start) {
+  @if $value == flex-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+  } @else if $value == flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+  } @else if $value == space-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+  } @else {
+    -webkit-box-pack: $value;
+    -ms-flex-pack: $value;
+  }
+  -webkit-justify-content: $value;
+  justify-content: $value;
+}
+/*处理flex垂直对齐方式*/
+// Values: flex-start | flex-end | center | baseline | stretch
+// Default: stretch
+@mixin alignItems($value: stretch) {
+  @if $value == flex-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+  } @else if $value == flex-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+  } @else {
+    -webkit-box-align: $value;
+    -ms-flex-align: $value;
+  }
+  -webkit-align-items: $value;
+  align-items: $value;
+}
+/*线性渐变*/
+@mixin gradientVertical($from, $to) {
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+ background-image: -webkit-linear-gradient($from, $to);
+ background-image: linear-gradient($from, $to);
+}
+@mixin gradientHorizontal($from, $to) {
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+ background-image: -webkit-linear-gradient($from, $to);
+ background-image: linear-gradient($from, $to);
+}
+
+/*px = dp * (dpi / 160)*/
+@mixin dpiGet($value: best) {
+  @if $value == best {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) { @content; }
+  }
+  @else if $value == good {
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) { @content; }
+  }
+  @else if $value == normal {
+    @media (-webkit-min-device-pixel-ratio: 1), (min-device-pixel-ratio: 1)  { @content; }
+  }
+}
+
+/*高清屏图片配置*/
+@mixin imageGet($file, $type, $width, $height) {
+  background-image: url($file + '.' + $type);
+  background-size: $width $height;
+  @include dpiGet(best) {
+    & {
+      background-image: url($file + '_2x.' + $type);
+      -webkit-background-size: $width $height;
+      background-size: $width $height;
+    }
+  }
+}
+

@@ -69,10 +69,10 @@ body{height:100%;margin:0;padding:0;font-size:12px;background:#fff;max-height:10
 
 /* 弹性布局(单行) */
 .layout-flexbox{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
-.box-col{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;width:100%;}
-.box-row{-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}
-.box-center-h{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}
-.box-center-v{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;}
+.layout-flexbox .box-col{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;width:100%;}
+.layout-flexbox .box-row{-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}
+.layout-flexbox .box-center-h{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}
+.layout-flexbox .box-center-v{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;}
 
 /* 弹性布局（多行）【没用display:inline-block，因为在某些安卓浏览器上空白字符靠传统方式去不掉，只能从模板去除】*/
 .layout-gridbox:before,

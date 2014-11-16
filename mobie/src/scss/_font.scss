@@ -1,0 +1,29 @@
+/* 文字 */
+.txt-xxs { font-size: 0.9rem; }
+/* 10px */
+.txt-xs { font-size: 1rem; }
+/* 12px */
+.txt-s { font-size: 1.2rem; }
+/* 13px */
+.txt-m { font-size: 1.3rem; }
+/* 14px */
+.txt-l { font-size: 1.4rem; }
+/* 15px */
+.txt-xl { font-size: 1.5rem; }
+/* 16px */
+.txt-xxl { font-size: 1.6rem; }
+/* 18px */
+.txt-xxl { font-size: 1.8rem; }
+/* 截断 */
+.txt-cut { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.txt-fb { font-weight: bold; }
+
+/* 字色 */
+.txt-ca { color: $txtColorA; }
+.txt-cb { color: $txtColorB; }
+.txt-cc { color: $txtColorC; }
+.txt-cd { color: $txtColorD; }
+.txt-ce { color: $txtColorE; }
+.txt-cf { color: $txtColorF; }
+.txt-cg { color: $txtColorG; }
+.txt-ch { color: $txtColorH; }

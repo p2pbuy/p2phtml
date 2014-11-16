@@ -1,9 +1,0 @@
-@charset "UTF-8";
-/*主要处理框架元素的布局*/
-.card21 .media-main {
-  position: relative;
-}
-
-.card21 .title {
-  padding: 8px 8px 2px 8px;
-}

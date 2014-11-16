@@ -1,0 +1,77 @@
+/* 弹性布局(单行) */
+.layout-flexbox {
+	@include flexbox;
+}
+.layout-flexbox .box-col {
+	@include flex;
+}
+.layout-flexbox .box-row {
+	@include flexDirection(column);
+}
+.layout-flexbox .box-center-h {
+	@include justifyContent(center);
+}
+.layout-flexbox .box-center-v {
+	@include alignItems(center);
+}
+.layout-flexbox .plus{
+    @include flexbox;
+    @include alignItems(center);
+    @include justifyContent(flex-end);
+}
+
+.layout-flexbox .plus-s {
+    width:16px;
+    margin-right: 12px;
+}
+.layout-flexbox .plus-s .icon-font{
+   
+}
+.layout-flexbox .plus-m {
+    width:30px;
+    margin-right: 12px;
+}
+
+/* 弹性布局（多行）【没用display:inline-block，因为在某些安卓浏览器上空白字符靠传统方式去不掉，只能从模板去除】 */
+.layout-gridbox:before,
+.layout-gridbox:after {
+	display: table;
+	content: "";
+}
+.layout-gridbox:after {
+	clear: both;
+}
+.layout-gridbox .box-col {
+	float: left;
+	box-sizing: border-box;
+}
+.layout-gridbox.col-1 .box-col {
+	width: 100%;
+}
+.layout-gridbox.col-2 .box-col {
+	width: 50%;
+}
+.layout-gridbox.col-3 .box-col {
+	width: 33.3333333%;
+}
+.layout-gridbox.col-4 .box-col {
+	width: 25%;
+}
+.layout-gridbox.col-5 .box-col {
+	width: 20%;
+}
+.layout-gridbox.col-6 .box-col {
+	width: 16.6666667%;
+}
+.layout-gridbox.col-7 .box-col {
+	width: 14.2857143%;
+}
+.layout-gridbox.col-8 .box-col {
+	width: 12.5%;
+}
+.layout-gridbox.col-9 .box-col {
+	width: 11.1111111%;
+}
+.layout-gridbox.col-10 .box-col {
+	width: 10%;
+}

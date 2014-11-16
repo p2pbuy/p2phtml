@@ -1,0 +1,142 @@
+
+/*基础字号*/
+$baseFontSize:10px;
+
+/*文字色*/
+$txtColorA:#333;//黑色
+$txtColorB:#808080;//深灰
+$txtColorC:#ccc;//浅灰
+$txtColorD:#fff;//白色
+$txtColorE:#7478c9;//紫色
+$txtColorF:#009cdc;//蓝色
+$txtColorG:#de2b2b; //红色
+$txtColorH:#0dbe3f; //绿色
+
+/*背景色*/
+$baseBgA:#fff;//白色
+$baseBgB:#ccc;//浅灰
+$baseBgC:#f2f2f2;//淡灰
+$baseBgD:#f6ac0d;//橙色
+$baseBgE:#7478c9;//紫色
+$baseBgF:#009cdc;//蓝色
+$baseBgG:#de2b2b;//红色
+$baseBgH:#0dbe3f;//绿色
+
+/*线色*/
+$lineColorA:#cdcdcd;//一级灰
+$lineColorB:#d9d9d9;//二级灰
+$lineColorC:#ededed;//三级灰
+$lineColorD:#f0f0f0;//四级灰
+$lineColorE:#5b60c0;//紫色
+$lineColorF:#0c88ba;//蓝色
+$lineColorG:#c11515;//红色
+$lineColorH:#0ba236;//绿色
+
+/*flex布局*/
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+/*处理flex值*/
+@mixin flex($fg: 1, $fs: null, $fb: null) {
+  -webkit-box-flex: $fg;
+  -webkit-flex: $fg $fs $fb;
+  -ms-flex: $fg $fs $fb;
+  flex: $fg $fs $fb;
+}
+/*处理flex方向*/
+@mixin flexDirection($value: row) {
+  @if $value == row-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+  } @else if $value == column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+  } @else if $value == column-reverse {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: vertical;
+  } @else {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+  }
+  -webkit-flex-direction: $value;
+  -ms-flex-direction: $value;
+  flex-direction: $value;
+}
+/*处理flex水平对齐方式*/
+// Values: flex-start | flex-end | center | space-between | space-around
+// Default: flex-start
+@mixin justifyContent($value: flex-start) {
+  @if $value == flex-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+  } @else if $value == flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+  } @else if $value == space-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+  } @else {
+    -webkit-box-pack: $value;
+    -ms-flex-pack: $value;
+  }
+  -webkit-justify-content: $value;
+  justify-content: $value;
+}
+/*处理flex垂直对齐方式*/
+// Values: flex-start | flex-end | center | baseline | stretch
+// Default: stretch
+@mixin alignItems($value: stretch) {
+  @if $value == flex-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+  } @else if $value == flex-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+  } @else {
+    -webkit-box-align: $value;
+    -ms-flex-align: $value;
+  }
+  -webkit-align-items: $value;
+  align-items: $value;
+}
+/*线性渐变*/
+@mixin gradientVertical($from, $to) {
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+ background-image: -webkit-linear-gradient($from, $to);
+ background-image: linear-gradient($from, $to);
+}
+@mixin gradientHorizontal($from, $to) {
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+ background-image: -webkit-linear-gradient($from, $to);
+ background-image: linear-gradient($from, $to);
+}
+
+/*px = dp * (dpi / 160)*/
+@mixin dpiGet($value: best) {
+  @if $value == best {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) { @content; }
+  }
+  @else if $value == good {
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) { @content; }
+  }
+  @else if $value == normal {
+    @media (-webkit-min-device-pixel-ratio: 1), (min-device-pixel-ratio: 1)  { @content; }
+  }
+}
+
+/*高清屏图片配置*/
+@mixin imageGet($file, $type, $width, $height) {
+  background-image: url($file + '.' + $type);
+  background-size: $width $height;
+  @include dpiGet(best) {
+    & {
+      background-image: url($file + '_2x.' + $type);
+      -webkit-background-size: $width $height;
+      background-size: $width $height;
+    }
+  }
+}
+

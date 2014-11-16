@@ -1,0 +1,46 @@
+.btn-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 6rem;
+	height: 6rem;
+	line-height: 6rem;
+	text-align: center;
+}
+.btn-close .icon {
+	font-size: 2rem;
+}
+.logo {
+	height: 44px;
+	padding-left: 35px;
+	color: #fff;
+	background: url(../img/common/logo.png) 10px center no-repeat;
+	background-size: 20px 20px;
+}
+.logo > .subtitle {
+	font-size: 12px;
+	padding-left: 5px;
+	color: $txtColorE;
+}
+.logo > .title {
+	font-size: 16px;
+	line-height: 44px;
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-indent: -60px;
+	color: $txtColorE;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.login-box {
+	padding: 5rem 0 0;
+}
+.login-box .other {
+	padding: 1rem;
+	text-align: center;
+}
+.login-box .other a {
+	display: block;
+}

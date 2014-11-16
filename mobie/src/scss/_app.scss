@@ -1,0 +1,78 @@
+@charset 'utf-8';
+/* 顶导 */
+.header{text-align:left;background:#747ac6;}
+.header .logo{height:44px;padding-left:35px;color:#fff;background:url(../img/common/logo.png) 10px center no-repeat;background-size:20px 20px;}
+.header .title{font-size:16px;font-weight:bold;vertical-align:middle;}
+.header .subtitle{font-size:12px;padding-left:5px;color:$txtColorD;}
+.header .title{font-size:14px;line-height:44px;height:44px;margin:0;padding:0;text-align:center;text-indent:-60px;color:$txtColorD;}
+
+/* 搜索 */
+.search-box{position:absolute;box-sizing:border-box;width:100%;height:5.6rem;padding:0.8rem;top:50%;margin-top: -5.6rem;}
+.search-box .search-inner{position:relative;box-sizing:border-box;width:100%;height:100%;border:1px solid $baseBgE;}
+.search-box .input{font-size:16px;line-height:30px;height:30px;padding:3px;vertical-align:top;border:0;}
+.search-box .btn-search{font-size:16px;line-height:38px;display:block;width:66px;height:38px;text-align:center;color:#fff;background-color:$baseBgE;}
+/* mini搜索 */
+.mini-search-box .search-inner{position:relative;height:30px;line-height: 30px;padding:6px 8px 6px 0;}
+.mini-search-box .input{width:100%;height:30px;line-height:30px;box-sizing:border-box;padding:3px 24px 3px 3px;border:0;}
+.mini-search-box .search{position:absolute;width:30px;height:30px;top:6px;right:0;color:$txtColorE;}
+/* 导购 */
+.navigation{line-height:30px;position:relative;width:100%;height:30px;}
+.navigation .tit{display:inline-block;height:100%;padding:0 3px;color:#fff;background-color:#747ac6;}
+.navigation .good-sort,.navigation .more-sort{display:inline-block;height:30px;vertical-align:top;}
+.navigation .more-sort{position:absolute;z-index:10;top:30px;left:0;width:100%;height:auto;}
+.navigation .good-sort li,.navigation .more-sort li{position:relative;vertical-align:top;}
+.navigation .good-sort li a,.navigation .more-sort li a{font-size:12px;display:block;padding:0 8px;color:#333;}
+.navigation .good-sort li.cur a,.navigation .more-sort li.cur a{color:#747ac6;}
+.navigation .good-sort .ico-arrowdown{vertical-align:middle;}
+/* 商品展示 */
+.good-show{padding:8px;}
+.good-show .good-list{margin-left:-10px;}
+.good-show .good-li{box-sizing:border-box;width:50%;margin:0 0 10px 0;padding:0 0 0 10px;}
+.good-show .good-box{position:relative;height:150px;}
+.good-show .pic{overflow:hidden;height:100%;}
+.good-show .pic img{min-width:100%;min-height:100%;}
+.good-show .cover{font-size:12px;line-height:18px;position:absolute;right:0;bottom:0;left:0;overflow:hidden;height:36px;padding:24px 5px 4px;color:#fff;background-image:-webkit-gradient(linear,50% 0%,50% 100%,from(rgba(0,0,0,0)),to(rgba(0,0,0,.9)));}
+.good-show > div:not(.good-box){padding:1.6rem;line-height: 18px;}
+
+.good-show .good-price{font-size:18px;font-weight:bold;line-height:40px;height:40px;}
+.good-show .good-price .unit{padding:0 4px 0 0;}
+.good-show .good-sum .icon{margin: 0 0.5rem;color:$txtColorB;}
+.good-show .good-sum .cont{padding: 0 1rem;}
+.good-show .good-sum .input{width:6rem;}
+
+.good-show .good-intro{line-height: 1.8rem;padding: 4px 8px;overflow: hidden;}
+.good-show .good-intro .more{padding: 0 0 0 5px;}
+.good-show .order-detail .tit,
+.good-show .order-detail .detail-list{display:block;width:100%;}
+.good-show .order-detail .tit{padding-bottom: 1rem;}
+.good-show .order-detail .detail-list li{line-height: 3rem;}
+.good-show .opt{width: 40px;text-align: center;font-family: "Tahoma";color: #ccc;}
+/* 商品详情 */
+.good-detail{padding:0;}
+.good-detail .good-box{height:270px;}
+.good-detail .cover{padding:100px 10px 4px;}
+/* 标题 */
+.scrollable > .title{line-height:30px;height:30px;margin:10px 0 0;padding:0 0.8rem;text-align: left;color:$txtColorA;}
+/* 按钮 */
+.btn-back{font-size:14px;width:60px;color:#fff;}
+.btn-back:before{display:inline-block;width:24px;height:24px;content:' ';vertical-align:middle;background:url(http://google.github.io/material-design-icons/hardware/svg/ic_keyboard_arrow_left_24px.svg) left center;}
+
+/*提交商品*/
+.submit-good .scrollable{padding-bottom: 6rem;}
+.submit-good .url-info{padding:1rem 0.8rem;}
+.submit-good .url-info .tit{margin-bottom: 1rem;font-size: 1.4rem;}
+.submit-good .url-info p{font-size: 1.2rem;word-wrap: break-word; word-break: normal;}
+
+/*支付费用*/
+.pay-box{padding:0.8rem;}
+.pay-box .order-num{margin-bottom: 1rem;font-size: 2rem;font-style: block;}
+.pay-box .order-status{line-height: 2rem;}
+.pay-box .order-status .tit{font-size: 1.5rem;margin-bottom: 1rem;}
+.pay-box .order-status .tit .icon{font-size: 2.4rem;}
+.pay-box .order-status .subtit{margin-bottom: 0.5rem;}
+.pay-box .order-status .tips{margin-bottom: 2rem;font-weight:bold;}
+
+/*我的订单*/
+.my-orderbox{padding:2rem 0;}
+.my-orderbox .order-item{padding:1rem 0;}
+.my-orderbox .order-item .tit{padding:0 0.8rem;}

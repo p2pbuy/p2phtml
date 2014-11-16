@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.W-icon{ display:inline-block;  background:url(../img/icon.png); background-size: 200px 200px;}
+.icon-index,
+.icon-msg,
+.icon-discover,
+.icon-me,
+.icon-sender,
+.icon-back{ width:25px; height:25px;}
+.icon-index{ background-position:0 0;}
+.icon-msg{background-position:-25px 0;}
+.icon-discover{background-position:-50px 0;}
+.icon-me{background-position:-75px 0;}
+.icon-sender{background-position:-100px 0;}
+.icon-back{ background-position:-175px 0;}
+.icon-search{width:18px;height:18px;background-position: -125px -50px;}
+.icon-senderBtn{display:inline-block;width:35px; height:35px; background:$basePageBgA; border-radius:50%; overflow:hidden; text-align:center;box-shadow: 0 2px 3px rgba(0,0,0,0.4);}
+.icon-senderBtn .icon-sender{ margin-top:5px;}
+.icon-arrowDown{ width:15px; height:8px; background-position:0 -25px;}
+.icon-arrowDown-gray{ width:15px; height:8px; background-position:0 -40px;}
+.icon-code2D{ width:30px; height:25px; background-position:-125px 0;}
+.icon-feed-share{ width:20px; height:18px; background-position:-25px -25px;}
+.icon-feed-cloud{ width:20px; height:16px; background-position:-50px -25px;}
+.icon-feed-like{ width:20px; height:18px; background-position:-75px -25px;}
+.icon-feed-liked{ width:20px; height:18px; background-position:-100px -25px;}
+.icon-del{ width:16px; height:17px; background-position:-125px -25px;}
+.icon-feed-stateA{ width:16px; height:15px; background-position:-150px -25px;}
+.icon-feed-stateB{ width:16px; height:15px; background-position:-175px -25px;}
+.icon-feed-counter{ width:25px; height:25px; border-radius: 50%; background-position:-100px -75px;}
+.icon-feed-counter-out{ width:25px; height:25px; border-radius: 50%; background-position:-135px -75px;}
+.icon-wish-get{width:13px;height:14px;background-position: -150px -50px}
+.icon-wish-out{width:14px;height:12px;background-position:-175px -50px;}
+.icon-picture, .icon-at, .icon-huati, .icon-face{width: 17px;height: 17px;}
+.icon-picture {background-position: -25px -50px; }
+.icon-at {background-position: -50px -50px; }
+.icon-huati {background-position: -75px -50px; }
+.icon-face {background-position: -100px -50px; }
+.icon-lbs-on, .icon-lbs-off{width:10px;height:12px;}
+.icon-lbs-on{background-position: 0 -50px;}
+.icon-lbs-off{background-position: -13px -50px;}
+.icon-clip, .icon-clip-a, .icon-clip-b, .icon-clip-c{width:12px;height:15px;}
+.icon-clip{background-position: 0 -75px;}
+.icon-clip-a{background-position: -25px -75px;}
+.icon-clip-b{background-position: -50px -75px;}
+.icon-clip-c{background-position: -75px -75px;}
+.icon-friend-add,
+.icon-friend-added,
+.icon-friend-both{ width: 25px; height: 25px;}
+.icon-friend-add{ background-position: 0 -100px;}
+.icon-friend-added{ background-position: -25px -100px;}
+.icon-friend-both{ background-position: -50px -100px;}
+.icon-feed-stateBG{ width: 34px; height: 34px; background-position: -150px -75px;}
+.icon-v-blue{width:8px; height: 8px; background-position: -100px -100px;}
+.icon-v-orange{width:8px; height: 8px; background-position: -125px -100px;}
+
+.W-icon-category{ display:inline-block; width: 50px; height: 40px; background:url(../img/icon_discover.png); background-size: 150px 100px; }
+.icon-category-a{ background-position: 0 0;}
+.icon-category-b{ background-position: -50px 0;}
+.icon-category-c{ background-position: -100px 0;}
+.icon-category-d{ background-position: 0 -50px;}
+.icon-category-e{ background-position: -50px -50px;}
+.icon-category-f{ background-position: -100px -50px;}
+
+.W-icon-wish{display:inline-block; width: 100px; height: 100px; background:url(../img/wish-clip.png); background-size: 100px 300px;}
+.icon-wish-a{ background-position: 0 0;}
+.icon-wish-b{ background-position: 0 -100px;}
+.icon-wish-c{ background-position: 0 -200px;}
