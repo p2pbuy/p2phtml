@@ -40,12 +40,10 @@ html, body {
 	max-height: 100%;
 	background:$baseBgA;
 }
-html{
-	overflow:hidden;
-}
 body {
 	font-size: 1.4rem;
 	overflow-y:auto;
+	-webkit-overflow-scrolling:touch;
 }
 .clearfix:after {
 	content: "";
