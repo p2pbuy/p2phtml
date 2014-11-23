@@ -5,6 +5,7 @@
 .header .title{font-size:16px;font-weight:bold;vertical-align:middle;}
 .header .subtitle{font-size:12px;padding-left:5px;color:$txtColorD;}
 .header .title{font-size:14px;line-height:44px;height:44px;margin:0;padding:0;text-align:center;text-indent:-60px;color:$txtColorD;}
+.header a{color:$txtColorD;}
 
 /* 搜索 */
 .search-box{position:absolute;box-sizing:border-box;width:100%;height:5.6rem;padding:0.8rem;top:50%;margin-top: -5.6rem;}
@@ -47,6 +48,10 @@
 .good-show .order-detail .tit{padding-bottom: 1rem;}
 .good-show .order-detail .detail-list li{line-height: 3rem;}
 .good-show .opt{width: 40px;text-align: center;font-family: "Tahoma";color: #ccc;}
+/*内嵌iframe*/
+.good-show .good-iframe{width:100%;min-height:800px;}
+.good-show .good-title{font-size: 1.8rem;}
+.good-show .tit{display:block;width: 60px;}
 /* 商品详情 */
 .good-detail{padding:0;}
 .good-detail .good-box{height:270px;}
