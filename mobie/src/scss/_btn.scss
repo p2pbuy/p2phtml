@@ -1,8 +1,12 @@
 /* 按钮 */
-.btn { display: inline-block; vertical-align: middle; text-decoration: none; border-radius: 2px; font-size: 1.4rem; }
-.btn .icon { vertical-align: middle; margin: -2px 5px 0; }
+.btn { display: inline-block; vertical-align: middle; text-decoration: none; border-radius: 2px; font-size: 1.4rem;}
+.btn-small{}
+.btn-mini{}
+
 .btn.disable { background-color: $baseBgB; }
+
 .btn:focus { outline: none; }
+
 .btn-default,
 .btn-red,
 .btn-green,
