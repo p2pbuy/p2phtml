@@ -28,5 +28,5 @@ form [data-control-progress].large,
 .form input[type="time"],
 .form input[type="url"]{ display: inline-block; box-sizing:border-box;width: 100%;height:4rem;line-height: 4rem;padding: 0.5em;-webkit-appearance: none; -webkit-user-select: text; border-width: 1px;border-style: solid;border-color: $lineColorA; }
 
-.prepend input{}
+.prepend input{border-radius: 0;border-top-right-radius: 2px;border-bottom-right-radius: 2px;}
 
