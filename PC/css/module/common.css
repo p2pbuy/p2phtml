@@ -159,7 +159,7 @@ body { background: #fff; }
 }
 .shadeB { position: fixed; _position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: #000; opacity: 0.4; filter: alpha(opacity=40); }
 /* 带遮罩loading */
-.shade-load { position: fixed; _position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(255, 255, 255, 0.5); }
+.shade-load { position: fixed; _position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.2); }
 .shade-load .inner { position: absolute; width: 120px; height: 32px; margin: -36px 0 0 -80px; padding: 20px; background-color: #666; border-radius: 5px; color: #fff; top: 50%; left: 50%; }
 .shade-load .loading { vertical-align: middle; }
 /* 提示条 */

@@ -13,84 +13,161 @@
 </head>
 <body>
 <div class="wrapper">
-	<header class="header">
-		<h1 class="logo"><strong class="title">P2PBUY</strong><small class="subtitle">轻松海淘</small></h1>
-	</header>
-	<div class="scrollable">
-
+	<div class="head-cover">
+		<header class="header">
+			<h1 class="logo"><strong class="title">P2PBUY</strong><small class="subtitle">轻松海淘</small></h1>
+		</header>
 		<!--搜索框-->
-		<div class="search-box"><div class="search-inner layout-flexbox line-all"><input type="text" class="input box-col" placeholder="输入您想要的商品"><a href="" class="btn-search">找代沟</a></div></div>
+		<div class="search-box"><div class="search-inner layout-flexbox line-all"><input type="text" class="input box-col" placeholder="输入您想要的商品"><a href="" class="btn-search"><i class="icon search"></i></a></div></div>
 		<!--/搜索框-->
-
-		<!--商品导航-->
-		<nav class="navigation line-all" style="display:none;">
-			<strong class="tit">今日推荐</strong><ul class="inline good-sort">
-				<li><a href="">服装鞋帽</a></li>
-				<li class="cur"><a href="">母婴玩具</a></li>
-				<li><a href="">食品保健</a></li>
-				<li><a href="">更多<span class="icon angle-down"></span></a></li>
-			</ul>
-			<ul class="inline more-sort line-bottom" style="display:none">
-				<li class=""><a href="">食品保健</a></li>
-				<li class=""><a href="">美容美发</a></li>
-				<li class=""><a href="">户外运动</a></li>
-				<li class=""><a href="">精品男装</a></li>
-				<li class=""><a href="">精品女装</a></li>
-				<li class=""><a href="">百货</a></li>
-				<li class=""><a href="">鞋包</a></li>
-				<li class=""><a href="">运动达人</a></li>
-			</ul>
-		</nav>
-		<!--/商品导航-->
-
-		<!--商品展示-->
-		<div class="good-show" style="display:none;">
-			<ul class="inline good-list">
-				<li class="good-li">
-					<div class="good-box">
-						<div class="pic"><img src="http://img6.paipaiimg.com/boss-83B3676B-2014102083B3676B543B86B6000012AC.1.min.1.jpg" alt=""></div>
-						<div class="cover">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
-					</div>
-					<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
-				</li>
-				<li class="good-li">
-					<div class="good-box">
-						<div class="pic"><img src="http://img2.paipaiimg.com/ba36bac8/adau-543DD932-00000001000000077FAE000000091971.1.min.1.jpg" alt=""></div>
-						<div class="cover">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
-					</div>
-					<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
-				</li>
-				<li class="good-li">
-					<div class="good-box">
-						<div class="pic"><img src="http://img4.paipaiimg.com/1ceb3dca/adau-543C9774-000000010000000791450000000916DD.1.min.1.jpg" alt=""></div>
-						<div class="cover">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
-					</div>
-					<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
-				</li>
-				<li class="good-li">
-					<div class="good-box">
-						<div class="pic"><img src="http://img2.paipaiimg.com/boss-1EEC46DF-201410191EEC46DF542935EA000012AC.1.min.1.jpg" alt=""></div>
-						<div class="cover">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
-					</div>
-					<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
-				</li>
-				<li class="good-li">
-					<div class="good-box">
-						<div class="pic"><img src="http://img4.paipaiimg.com/1ceb3dca/adau-543C9774-000000010000000791450000000916DD.1.min.1.jpg" alt=""></div>
-						<div class="cover">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
-					</div>
-					<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
-				</li>
-				<li class="good-li">
-					<div class="good-box">
-						<div class="pic"><img src="http://img2.paipaiimg.com/boss-1EEC46DF-201410191EEC46DF542935EA000012AC.1.min.1.jpg" alt=""></div>
-						<div class="cover">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
-					</div>
-					<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
-				</li>
-			</ul>
+	</div>
+	<div class="scrollable">
+		<!--分类一-->
+		<div class="good-box">
+			<!--商品标题-->
+			<nav class="navigation layout-flexbox">
+				<strong class="tit box-col">今日推荐</strong>
+				<a href="" class="opt"><em>更多</em><i class="icon angle-right"></i></a>
+			</nav>
+			<!--/商品标题-->
+			<!--商品内容-->
+			<div class="good-show">
+				<ul class="inline good-list">
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://ww2.sinaimg.cn/bmiddle/54bc9eddtw1empn07y2wtj20m80p641b.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://ww3.sinaimg.cn/bmiddle/cadd5b80gw1empnzb9duyj20c80ie3zn.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://img6.paipaiimg.com/boss-83B3676B-2014102083B3676B543B86B6000012AC.1.min.1.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--/商品内容-->
 		</div>
-		<!--/商品展示-->
+		
+		<!--分类二-->
+		<div class="good-box">
+			<!--商品标题-->
+			<nav class="navigation layout-flexbox">
+				<strong class="tit box-col">今日优惠</strong>
+				<a href="" class="opt"><em>更多</em><i class="icon angle-right"></i></a>
+			</nav>
+			<!--/商品标题-->
+			<!--商品内容-->
+			<div class="good-show">
+				<ul class="inline good-list">
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://ww2.sinaimg.cn/bmiddle/54bc9eddtw1empn07y2wtj20m80p641b.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://ww3.sinaimg.cn/bmiddle/cadd5b80gw1empnzb9duyj20c80ie3zn.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://img6.paipaiimg.com/boss-83B3676B-2014102083B3676B543B86B6000012AC.1.min.1.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--/商品内容-->
+		</div>
+
+		<!--分类三-->
+		<div class="good-box">
+			<!--商品标题-->
+			<nav class="navigation layout-flexbox">
+				<strong class="tit box-col">今日优惠</strong>
+				<a href="" class="opt"><em>更多</em><i class="icon angle-right"></i></a>
+			</nav>
+			<!--/商品标题-->
+			<!--商品内容-->
+			<div class="good-show">
+				<ul class="inline good-list">
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://ww2.sinaimg.cn/bmiddle/54bc9eddtw1empn07y2wtj20m80p641b.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://ww3.sinaimg.cn/bmiddle/cadd5b80gw1empnzb9duyj20c80ie3zn.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="good-li">
+						<div class="li-inner line-all">
+							<div class="good-box">
+								<div class="pic"><img src="http://img6.paipaiimg.com/boss-83B3676B-2014102083B3676B543B86B6000012AC.1.min.1.jpg" alt=""></div>
+							</div>
+							<div class="good-info">
+								<div class="good-name">仙丫品牌女装钜惠仙丫品牌女装钜惠仙丫品牌女装钜惠</div>
+								<div class="good-price"><em class="unit">$</em><span class="num">12323.22</span></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--/商品内容-->
+		</div>
 
 	</div>
 </div>

@@ -1,17 +1,28 @@
 @charset "utf-8";
 /* 框架 */
+.header-cover{background-color: $baseBgE;}
 .header,
 .footer {text-align: center; background-color: $baseBgE; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); text-align: center; z-index: 10; }
 /* 顶导 */
-.header {top: 0;width: 100%; height: 44px; }
-.header .inner { color: #fff; }
+.header {top: 0;width: 100%; }
+.header .inner { color:$txtColorD; }
 .header .opt-l,
 .header .opt-r { display: block; width: 44px; height: 44px; line-height: 44px;text-align: center; cursor: pointer; }
-.header .title { height: 38px; margin-top: 4px; padding: 0 10px; line-height: 38px; color: #fff; font-size: 18px; }
+.header .title { height: 38px; margin-top: 4px; padding: 0 10px; line-height: 38px; color:$txtColorD; font-size: 18px; }
+
+/* 顶导 */
+.header{height:4.4rem;text-align:left;background:$txtColorE;}
+.header .logo{padding-left:35px;color:#fff;background:url(../img/common/logo.png) 10px center no-repeat;background-size:20px 20px;}
+.header .title{font-size:16px;font-weight:bold;vertical-align:middle;}
+.header .subtitle{font-size:12px;padding-left:5px;color:$txtColorD;}
+.header .title{font-size:14px;line-height:44px;height:44px;margin:0;padding:0;text-align:center;text-indent:-60px;color:$txtColorD;}
+.header a{color:$txtColorD;}
+.header .icon{color:$txtColorD;}
 
 /* 底导 */
 .footer { position:fixed;bottom: 0;left:0;right:0; padding: 0.8rem; background-color: $baseBgA;z-index: 99; }
 .footer .icon{color:$txtColorB;font-size: 3rem;}
+
 /* =============基础元素============== */
 .S-bgA { background-color: $baseBgA; }
 .S-bgB { background-color: $baseBgB; }
@@ -19,19 +30,27 @@
 .S-bgD { background-color: $baseBgD; }
 .S-bgE { background-color: $baseBgE; }
 .S-bgF { background-color: $baseBgF; }
-.iconimg { display: inline-block; vertical-align: middle; }
+
 /* 表单 */
+.input{padding:0.3rem;}
+textarea.input{width:100%;border: 1px solid $lineColorB;}
 .search-box { padding: 3px 0; }
-.search-box .icon-search { margin: 4px 4px 0 4px; }
 .search-box input[type="search"] { border: 0; height: 22px; line-height: 22px; vertical-align: top; margin: 2px 3px; width: 100%; box-sizing: border-box; }
+/*加减组件*/
+.mod-modified .minus-sign,
+.mod-modified .plus-sign{display:inline-block;width:30px;height:30px;text-align: center;line-height: 28px;vertical-align: middle;color:$txtColorB;}
+.mod-modified .minus-sign{margin-right: 3px;}
+.mod-modified .plus-sign{margin-left: 3px;}
+.mod-modified .input{width:6rem;height:22px;line-height:22px;}
+
 /* 行内列表 */
 ul.inline { font-size: 0; }
-ul.inline li { display: inline-block; font-size: 14px; }
+ul.inline li { display: inline-block;font-size: 14px; }
 /* 块列表 */
-ul.lists { }
 ul.lists li { position: relative; padding: 0.8em; }
 ul.lists li > div { line-height: 24px; }
 ul.lists li.arrow:before { position: absolute; content: " "; width: 10px; height: 10px; border-right: 1px solid #ccc; border-top: 1px solid #ccc; -webkit-transform: rotate(45deg); transform: rotate(45deg); right: 10px; top: 50%; margin-top: -7px; }
+
 /* 图文混排模块 */
 .media-graphic {position:relative;}
 .media-graphic .mod-media { position: relative; text-align: center; margin: 8px 0 8px 8px; }
@@ -48,8 +67,9 @@ ul.lists li.arrow:before { position: absolute; content: " "; width: 10px; height
 
 /* 气泡 */
 .bubble { display: inline-block; }
-.bubble-blue { width: 24px; height: 13px; line-height: 13px; background-color: #61c3fc; border-radius: 2px; color: #fff; overflow: hidden }
-.bubble-dot-red { min-width: 16px; padding: 0 5px; height: 16px; line-height: 16px; text-align: center; border-radius: 8px; background-color: #fe6431; color: #fff; box-sizing: border-box; text-align: center; }
+.bubble-blue { width: 24px; height: 13px; line-height: 13px; background-color: #61c3fc; border-radius: 2px; color:$txtColorD; overflow: hidden }
+.bubble-dot-red { min-width: 16px; padding: 0 5px; height: 16px; line-height: 16px; text-align: center; border-radius: 8px; background-color: #fe6431; color:$txtColorD; box-sizing: border-box; text-align: center; }
+
 /* 基础常用样式 */
 .size-l { width: 70px; }
 .size-m { width: 64px; }
@@ -64,3 +84,4 @@ ul.lists li.arrow:before { position: absolute; content: " "; width: 10px; height
 .nav-step .active .item-step{background-color: $baseBgE;color:$txtColorD;}
 .nav-step .txt{margin-top: 0.5rem;text-align: center;font-size: 1.4rem;}
 .nav-step .active .txt{color:$txtColorE;font-weight: block;}
+

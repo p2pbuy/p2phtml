@@ -7,20 +7,22 @@ $txtColorA:#333;//黑色
 $txtColorB:#808080;//深灰
 $txtColorC:#ccc;//浅灰
 $txtColorD:#fff;//白色
-$txtColorE:#7478c9;//紫色
+$txtColorE:#363a4a;//紫色
 $txtColorF:#009cdc;//蓝色
 $txtColorG:#de2b2b; //红色
 $txtColorH:#0dbe3f; //绿色
+$txtColorI:#f39c12; //橙色
 
 /*背景色*/
 $baseBgA:#fff;//白色
 $baseBgB:#ccc;//浅灰
-$baseBgC:#f2f2f2;//淡灰
+$baseBgC:#f3f3f3;//淡灰
 $baseBgD:#f6ac0d;//橙色
-$baseBgE:#7478c9;//紫色
+$baseBgE:#363a4a;//紫色
 $baseBgF:#009cdc;//蓝色
 $baseBgG:#de2b2b;//红色
 $baseBgH:#0dbe3f;//绿色
+$baseBgI:#f39c12; //橙色
 
 /*线色*/
 $lineColorA:#cdcdcd;//一级灰
@@ -31,6 +33,7 @@ $lineColorE:#5b60c0;//紫色
 $lineColorF:#0c88ba;//蓝色
 $lineColorG:#c11515;//红色
 $lineColorH:#0ba236;//绿色
+$lineColorI:#df8c09; //橙色
 
 /*flex布局*/
 @mixin flexbox {

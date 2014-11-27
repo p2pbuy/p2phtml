@@ -42,8 +42,8 @@ gulp.task('default', function() {
 
     gulp.run('sass');
 
-    // 监听文件变化
-    // gulp.watch('./js/*.js', function() {
-    //     gulp.run('sass', 'scripts');
+    //监听文件变化
+    // gulp.watch(['./src/scss/*.scss'], function() {
+    //     gulp.run('sass');
     // });
 });
