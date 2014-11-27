@@ -23,6 +23,7 @@
 .footer { position:fixed;bottom: 0;left:0;right:0; padding: 0.8rem; background-color: $baseBgA;z-index: 99; }
 .footer .icon{color:$txtColorB;font-size: 3rem;}
 
+.wrapper{overflow:hidden;}
 /* =============基础元素============== */
 .S-bgA { background-color: $baseBgA; }
 .S-bgB { background-color: $baseBgB; }
@@ -41,7 +42,7 @@ textarea.input{width:100%;border: 1px solid $lineColorB;}
 .mod-modified .plus-sign{display:inline-block;width:30px;height:30px;text-align: center;line-height: 28px;vertical-align: middle;color:$txtColorB;}
 .mod-modified .minus-sign{margin-right: 3px;}
 .mod-modified .plus-sign{margin-left: 3px;}
-.mod-modified .input{width:6rem;height:22px;line-height:22px;}
+.mod-modified .input{width:6rem;height:22px;line-height:22px;text-align: center;}
 
 /* 行内列表 */
 ul.inline { font-size: 0; }
