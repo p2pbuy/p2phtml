@@ -34,6 +34,8 @@
 	font-weight: bold;
 	vertical-align: middle;
 }
+.header .logo>.title,
+.header .logo>.subtitle{color:$txtColorD;}
 .login-box {
 	padding: 5rem 0 0;
 }
